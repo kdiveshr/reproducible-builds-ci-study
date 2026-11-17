@@ -89,7 +89,13 @@ def main():
         "resolution": {
             "fingerprint_sha256": fp_sha,
             "files_count": fp_count,
-            "exclusions": ["*.lastUpdated", "maven-metadata-*.xml"],
+            "exclusions": [
+                "*.lastUpdated",
+                "maven-metadata-*.xml",
+                "_remote.repositories",
+                "package-lock.json",
+                ".package-lock.json",
+            ],
         },
         "logs": [
             "clean.log",

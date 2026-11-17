@@ -68,9 +68,11 @@ done < <(find . -path '*/target/*.jar' ! -name '*.original' ! -name '*-sources.j
 
 # Resolution fingerprint: every file in the fresh per-build local repository,
 # except volatile metadata (download-failure markers, remote metadata files
-# that carry fetch timestamps).
+# that carry fetch timestamps, resolver bookkeeping files whose content
+# depends on concurrent resolution order, and npm lockfiles that plugins
+# rewrite at runtime inside their own directories).
 FINGERPRINT_FILE="$OUT_DIR/resolution-fingerprint.txt"
-(cd "$M2_DIR" && find . -type f ! -name '*.lastUpdated' ! -name 'maven-metadata-*.xml' | LC_ALL=C sort | xargs -r sha256sum) > "$FINGERPRINT_FILE"
+(cd "$M2_DIR" && find . -type f ! -name '*.lastUpdated' ! -name 'maven-metadata-*.xml' ! -name '_remote.repositories' ! -name 'package-lock.json' ! -name '.package-lock.json' | LC_ALL=C sort | xargs -r sha256sum) > "$FINGERPRINT_FILE"
 
 python3 "$HARNESS_DIR/record.py" \
   --out-dir "$OUT_DIR" \
