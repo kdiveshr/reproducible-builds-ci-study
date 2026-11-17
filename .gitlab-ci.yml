@@ -14,7 +14,7 @@ spec:
     study_ref:
       description: Study repo ref to clone the harness from
       default: main
-
+---
 study-build:
   image:
     name: ghcr.io/kdiveshr/reproducible-builds-ci-study-builder:latest
