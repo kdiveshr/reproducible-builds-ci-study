@@ -1,0 +1,35 @@
+# E2: GitLab CI environment. Runs two instrumented builds of one pinned commit
+# inside the builder image and uploads the build records, logs, and artifacts
+# for diff analysis.
+#
+# This project mirrors the GitHub study repository; the pipeline definition
+# lives in the mirrored repo. Jobs run ONLY on the project's self-hosted
+# runner (tag: study-runner) — GitLab.com shared runners require card
+# verification and are not used.
+#
+# Triggered manually (web UI or API) with REPO_URL and COMMIT_SHA variables.
+
+study-build:
+  image: ghcr.io/kdiveshr/reproducible-builds-ci-study-builder:latest
+  tags:
+    - study-runner
+  timeout: 45m
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - if: $CI_PIPELINE_SOURCE == "api"
+  variables:
+    REPO_URL: ""
+    COMMIT_SHA: ""
+  script:
+    - |
+      if [ -z "$REPO_URL" ] || [ -z "$COMMIT_SHA" ]; then
+        echo "REPO_URL and COMMIT_SHA pipeline variables are required" >&2
+        exit 2
+      fi
+    - export BUILDER_IMAGE="$CI_JOB_IMAGE"
+    - bash harness/run-build.sh "$REPO_URL" "$COMMIT_SHA" E2 "$CI_PROJECT_DIR/work" "$CI_PROJECT_DIR/out"
+  artifacts:
+    when: always
+    paths:
+      - out/
+    expire_in: 90 days

@@ -1,0 +1,57 @@
+name: study-build
+
+# E1: GitHub Actions environment. Runs two instrumented builds of one pinned
+# commit inside the builder container and uploads the build records, logs,
+# and artifacts for diff analysis.
+#
+# Triggered manually per project (workflow_dispatch) during the pilot; the
+# full phase-1 run drives this workflow per project from the sample list.
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_url:
+        description: "Target repository URL (public GitHub repo)"
+        required: true
+        type: string
+      commit_sha:
+        description: "Pinned commit SHA to build"
+        required: true
+        type: string
+      builder_image:
+        description: "Builder image (tag or digest)"
+        required: false
+        default: "ghcr.io/kdiveshr/reproducible-builds-ci-study-builder:latest"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run two builds in the builder container
+        run: |
+          bash harness/run-in-container.sh \
+            "${{ inputs.builder_image }}" \
+            "$GITHUB_WORKSPACE" \
+            "${{ inputs.repo_url }}" \
+            "${{ inputs.commit_sha }}" \
+            E1
+
+      - name: Show build records
+        if: always()
+        run: |
+          find out -name build-record.json -exec cat {} + 2>/dev/null || echo "no build records produced"
+
+      - name: Upload build outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-outputs-E1-${{ github.run_number }}-${{ github.run_attempt }}
+          path: out/
+          retention-days: 90
