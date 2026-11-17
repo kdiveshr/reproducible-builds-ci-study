@@ -40,8 +40,19 @@ study-build:
     - git -C /tmp/study-harness rev-parse HEAD > "$CI_PROJECT_DIR/out/harness-commit.txt"
     - export BUILDER_IMAGE="$CI_JOB_IMAGE"
     - bash /tmp/study-harness/harness/run-build.sh "$REPO_URL" "$COMMIT_SHA" E2 "$CI_PROJECT_DIR/work" "$CI_PROJECT_DIR/out"
+  # Upload records/logs/fingerprints ONLY. Uploading all of out/ (incl. the
+  # artifacts/ JAR copies) exceeds GitLab.com's artifact size limit on very
+  # large projects (boot-ui: ~2GB -> HTTP 413, both builds lost). The builds
+  # themselves are unchanged; only the upload scope is narrowed.
   artifacts:
     when: always
     paths:
-      - out/
+      - out/harness-commit.txt
+      - out/**/run-manifest.json
+      - out/**/build-record.json
+      - out/**/resolution-fingerprint.txt
+      - out/**/build.log
+      - out/**/clean.log
+      - out/**/env-snapshot.txt
+      - out/**/artifacts.txt
     expire_in: 90 days
