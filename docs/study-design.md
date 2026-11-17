@@ -78,6 +78,8 @@ The playbook is written and frozen BEFORE phase-1 results are seen, so it cannot
 6. Neutralize build-time metadata (`git-commit-id` / `buildnumber` plugin config: disable or fix values).
 7. Pin dependency versions (remove ranges / `LATEST`).
 
+**Fix results (Nov 17):** Project 1 (graphql-jpa-query) FIXED by step 2 alone — a 2-line root-pom change (`project.build.outputTimestamp` = pinned commit time, fork branch `repro-step2-outputtimestamp`, commit ec198af2) took it from 0/14 to 14/14 between every pair, all three environments, 1 iteration. Fork: kdiveshr/graphql-jpa-query. Project 3 (shopping-app-backend) FIXED the same way — 2-line pom change (fork kdiveshr/shopping-app-backend, commit 20386c56), 0/1 → 1/1 between every pair, 1 iteration. Project 5 (josdk-spring-boot-starter) FIXED the same way — 2-line pom change (fork kdiveshr/josdk-spring-boot-starter, commit 2d5bc6f7), 0/5 → 5/5 between every pair, 1 iteration. Remaining pilot fix: ScheduleDashboard (TIMESTAMP + ORDERING — needs step 2 + step 5).
+
 **Effort ledger (kept contemporaneously — this is RQ3's data):** per project, wall-clock time split into diagnosis / fix / verification, diff size (lines added/removed), build iterations, outcome (fixed / partially fixed / not fixed), and the exact fix diff. Fixes live on a branch in a fork and go in the replication package. Upstream pull requests are OUT of scope for the paper (optional future work). (Decided Nov 16 — see §13.)
 
 ## 7. Analysis
@@ -136,4 +138,4 @@ All decided Nov 16 (user):
 
 Study repo: https://github.com/kdiveshr/reproducible-builds-ci-study (public, created Nov 16).
 
-Status Nov 17: PILOT COMPLETE — 5 projects measured across E1/E2/E3 (4 mismatch, 1 fully reproducible); harness validated end-to-end, protocol unchanged so all 5 stay in the phase-1 sample. 2 exclusions (tp-cafe, solace). Entry-level cause checks done for all 4 mismatching projects: timestamps dominate; ScheduleDashboard also shows entry-ordering differences. Next: diffoscope classification (RQ2) + fix playbook with effort ledger (RQ3) on pilot projects, then phase 1 (20 more projects from the 36 remaining v2 passes).
+Status Nov 17: PILOT COMPLETE + first fix VERIFIED — project 1 (graphql-jpa-query) fixed by playbook step 2 alone (2-line pom change, 0/14 → 14/14 cross-env, 1 iteration). Diffoscope classification done (TIMESTAMP + ORDERING). Remaining: fix attempts for shopping-app, josdk (TIMESTAMP-only) and ScheduleDashboard (TIMESTAMP + ORDERING), then phase 1 (20 more projects from the 36 remaining v2 passes).
