@@ -2,7 +2,18 @@
 # (GitLab.com Free has no pull mirroring, so the GitLab project holds only
 # this file); each job clones the harness from this repository.
 # Jobs run ONLY on the project's self-hosted runner (tag: study-runner).
-# Triggered manually (web UI or API) with REPO_URL and COMMIT_SHA variables.
+# Triggered manually (web UI or API); the run form asks for the inputs below
+# (GitLab's new-pipeline form has no free-form variable fields).
+
+spec:
+  inputs:
+    repo_url:
+      description: Target repository URL (public GitHub repo)
+    commit_sha:
+      description: Pinned commit SHA to build
+    study_ref:
+      description: Study repo ref to clone the harness from
+      default: main
 
 study-build:
   image:
@@ -15,13 +26,13 @@ study-build:
     - if: $CI_PIPELINE_SOURCE == "web"
     - if: $CI_PIPELINE_SOURCE == "api"
   variables:
-    REPO_URL: ""
-    COMMIT_SHA: ""
-    STUDY_REF: "main"
+    REPO_URL: "$[[ inputs.repo_url ]]"
+    COMMIT_SHA: "$[[ inputs.commit_sha ]]"
+    STUDY_REF: "$[[ inputs.study_ref ]]"
   script:
     - |
       if [ -z "$REPO_URL" ] || [ -z "$COMMIT_SHA" ]; then
-        echo "REPO_URL and COMMIT_SHA pipeline variables are required" >&2
+        echo "repo_url and commit_sha inputs are required" >&2
         exit 2
       fi
     - git clone --depth 1 --branch "$STUDY_REF" https://github.com/kdiveshr/reproducible-builds-ci-study.git /tmp/study-harness

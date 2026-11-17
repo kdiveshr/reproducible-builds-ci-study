@@ -43,7 +43,7 @@ captures the arch-native digest actually used.
 - `harness/sample_frame.py` — sample-frame enumeration (seeded, auditable).
 - `.github/workflows/study-build.yml` — E1 pipeline (manual dispatch).
 - `.gitlab-ci.yml` — E2 pipeline definition, copied into the GitLab project
-  (manual, with `REPO_URL`/`COMMIT_SHA`).
+  (manual run; `repo_url`/`commit_sha` inputs).
 - `docs/study-design.md` — full study design.
 
 ## Method in brief
@@ -64,8 +64,8 @@ captures the arch-native digest actually used.
 ## Running one project
 
 E1 (GitHub Actions): run the `study-build` workflow with the repo URL and
-commit SHA. E2 (GitLab CI): start a manual pipeline with `REPO_URL` and
-`COMMIT_SHA` variables. E3 (local Docker):
+commit SHA. E2 (GitLab CI): start a manual pipeline with the `repo_url` and
+`commit_sha` inputs. E3 (local Docker):
 
 ```sh
 bash harness/run-local.sh <repo-url> <commit-sha> [work-root] [image]
