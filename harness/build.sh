@@ -88,4 +88,9 @@ python3 "$HARNESS_DIR/record.py" \
   --finished-at "$FINISHED_AT" \
   --exit-code "$BUILD_EXIT"
 
+# Disk hygiene: the resolution fingerprint already captures everything the
+# local repository contained. Drop the (large) per-build repository so 150
+# builds do not fill the disk; re-resolution from Central reproduces it.
+rm -rf "$M2_DIR"
+
 exit "$BUILD_EXIT"

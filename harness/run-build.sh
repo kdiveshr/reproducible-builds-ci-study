@@ -48,4 +48,8 @@ fi
 printf '{\n  "repo_url": "%s",\n  "commit_sha": "%s",\n  "environment": "%s",\n  "build_1": "%s",\n  "build_2": "%s"\n}\n' \
   "$REPO_URL" "$COMMIT_SHA" "$ENV_NAME" "$STATUS1" "$STATUS2" > "$RUN_OUT/run-manifest.json"
 
+# Disk hygiene: everything needed is under $RUN_OUT. Drop the target checkout
+# (including its target/ build outputs); fixes work from fresh clones.
+rm -rf "$TARGET_DIR"
+
 exit "$FAIL"
