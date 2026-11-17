@@ -1,0 +1,37 @@
+--- E1/build-1/artifacts/samples_spring-boot-auto-config_target_operator-framework-spring-boot-starter-samples-auto-configuration-6.7.5-SNAPSHOT.jar
++++ E1/build-2/artifacts/samples_spring-boot-auto-config_target_operator-framework-spring-boot-starter-samples-auto-configuration-6.7.5-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 4686 bytes, number of entries: 16
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:49 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-auto-configuration/
+│ --rw-r--r--  2.0 unx      977 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/SampleComponent.class
+│ --rw-r--r--  2.0 unx     1317 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/SpringBootStarterSampleApplication.class
+│ --rw-r--r--  2.0 unx       97 b- defN 26-Nov-17 06:49 application.yaml
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:50 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-auto-configuration/
+│ +-rw-r--r--  2.0 unx      977 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/SampleComponent.class
+│ +-rw-r--r--  2.0 unx     1317 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/SpringBootStarterSampleApplication.class
+│ +-rw-r--r--  2.0 unx       97 b- defN 26-Nov-17 06:50 application.yaml
+│  -rw-r--r--  2.0 unx     2152 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-auto-configuration/pom.xml
+│ --rw-r--r--  2.0 unx      127 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-auto-configuration/pom.properties
+│ +-rw-r--r--  2.0 unx      127 b- defN 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-auto-configuration/pom.properties
+│  16 files, 4751 bytes uncompressed, 1900 bytes compressed:  60.0%

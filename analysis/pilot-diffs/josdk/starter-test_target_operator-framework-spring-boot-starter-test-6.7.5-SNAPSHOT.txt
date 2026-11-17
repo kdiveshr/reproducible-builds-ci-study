@@ -1,0 +1,49 @@
+--- E1/build-1/artifacts/starter-test_target_operator-framework-spring-boot-starter-test-6.7.5-SNAPSHOT.jar
++++ E1/build-2/artifacts/starter-test_target_operator-framework-spring-boot-starter-test-6.7.5-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│  Zip file size: 11392 bytes, number of entries: 22
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:49 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-test/
+│ --rw-r--r--  2.0 unx     1329 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/TestConfigurationProperties.class
+│ --rw-r--r--  2.0 unx     5077 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/TestConfiguration.class
+│ --rw-r--r--  2.0 unx      676 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/EnableMockOperator.class
+│ --rw-r--r--  2.0 unx     1155 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/EnableKubeAPITest.class
+│ --rw-r--r--  2.0 unx     2345 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestProperties.class
+│ --rw-r--r--  2.0 unx      795 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestAutoConfiguration.class
+│ --rw-r--r--  2.0 unx     3412 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestConfiguration.class
+│ --rw-r--r--  2.0 unx     2395 b- defN 26-Nov-17 06:49 META-INF/spring-configuration-metadata.json
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:50 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-test/
+│ +-rw-r--r--  2.0 unx     1329 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/TestConfigurationProperties.class
+│ +-rw-r--r--  2.0 unx     5077 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/TestConfiguration.class
+│ +-rw-r--r--  2.0 unx      676 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/EnableMockOperator.class
+│ +-rw-r--r--  2.0 unx     1155 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/EnableKubeAPITest.class
+│ +-rw-r--r--  2.0 unx     2345 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestProperties.class
+│ +-rw-r--r--  2.0 unx      795 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestAutoConfiguration.class
+│ +-rw-r--r--  2.0 unx     3412 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/test/kubeapitest/KubeAPITestConfiguration.class
+│ +-rw-r--r--  2.0 unx     2395 b- defN 26-Nov-17 06:50 META-INF/spring-configuration-metadata.json
+│  -rw-r--r--  2.0 unx     3323 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-test/pom.xml
+│ --rw-r--r--  2.0 unx      105 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-test/pom.properties
+│ +-rw-r--r--  2.0 unx      105 b- defN 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-test/pom.properties
+│  22 files, 20693 bytes uncompressed, 7230 bytes compressed:  65.1%

@@ -1,0 +1,71 @@
+--- E1/build-1/artifacts/target_schedule-dashboard-1.0.2.jar
++++ E1/build-2/artifacts/target_schedule-dashboard-1.0.2.jar
+├── zipinfo {}
+│ @@ -11,22 +11,22 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 org/dash/ScheduleDashboard/annotation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 org/dash/ScheduleDashboard/aspect/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 META-INF/maven/com.github.varshaupadhyay/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 05:40 META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/
+│  -rw-r--r--  2.0 unx    30999 b- defN 26-Nov-17 05:40 static/fonts/font-awesome.min.css
+│ --rw-r--r--  2.0 unx   121458 b- defN 26-Nov-17 05:40 static/css/bootstrap.min.css
+│ --rw-r--r--  2.0 unx    39681 b- defN 26-Nov-17 05:40 static/js/bootstrap.min.js
+│  -rw-r--r--  2.0 unx    31000 b- defN 26-Nov-17 05:40 static/css/font-awesome.min.css
+│  -rw-r--r--  2.0 unx      792 b- defN 26-Nov-17 05:40 org/dash/ScheduleDashboard/ScheduleDashboardApplication.class
+│  -rw-r--r--  2.0 unx      475 b- defN 26-Nov-17 05:40 org/dash/ScheduleDashboard/annotation/EnableScheduleDashboard.class
+│  -rw-r--r--  2.0 unx     1276 b- defN 26-Nov-17 05:40 org/dash/ScheduleDashboard/ScheduleTest.class
+│  -rw-r--r--  2.0 unx     5599 b- defN 26-Nov-17 05:40 org/dash/ScheduleDashboard/aspect/ScheduleAspect.class
+│  -rw-r--r--  2.0 unx     2976 b- defN 26-Nov-17 05:40 org/dash/ScheduleDashboard/ApplicationController.class
+│  -rw-r--r--  2.0 unx     2971 b- defN 26-Nov-17 05:40 templates/dashboard.html
+│  -rw-r--r--  2.0 unx       17 b- defN 26-Nov-17 05:40 application.properties
+│  -rw-r--r--  2.0 unx     4298 b- defN 26-Nov-17 05:40 META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/pom.xml
+│  -rw-r--r--  2.0 unx      109 b- defN 26-Nov-17 05:40 META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/pom.properties
+│ +-rw-r--r--  2.0 unx    39681 b- defN 26-Nov-17 05:40 static/js/bootstrap.min.js
+│ +-rw-r--r--  2.0 unx   121458 b- defN 26-Nov-17 05:40 static/css/bootstrap.min.css
+│  -rw-r--r--  2.0 unx   169920 b- defN 26-Nov-17 05:40 static/js/angular.min.js
+│  -rw-r--r--  2.0 unx    88145 b- defN 26-Nov-17 05:40 static/js/jquery.min.js
+│  30 files, 500025 bytes uncompressed, 142747 bytes compressed:  71.5%
+├── zipnote «TEMP»/diffoscope_pihcszr3_artifacts/tmpbbl6rl7p_.zip
+│ @@ -42,20 +42,14 @@
+│  
+│  Filename: META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/
+│  Comment: 
+│  
+│  Filename: static/fonts/font-awesome.min.css
+│  Comment: 
+│  
+│ -Filename: static/css/bootstrap.min.css
+│ -Comment: 
+│ -
+│ -Filename: static/js/bootstrap.min.js
+│ -Comment: 
+│ -
+│  Filename: static/css/font-awesome.min.css
+│  Comment: 
+│  
+│  Filename: org/dash/ScheduleDashboard/ScheduleDashboardApplication.class
+│  Comment: 
+│  
+│  Filename: org/dash/ScheduleDashboard/annotation/EnableScheduleDashboard.class
+│ @@ -78,14 +72,20 @@
+│  
+│  Filename: META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.github.varshaupadhyay/schedule-dashboard/pom.properties
+│  Comment: 
+│  
+│ +Filename: static/js/bootstrap.min.js
+│ +Comment: 
+│ +
+│ +Filename: static/css/bootstrap.min.css
+│ +Comment: 
+│ +
+│  Filename: static/js/angular.min.js
+│  Comment: 
+│  
+│  Filename: static/js/jquery.min.js
+│  Comment: 
+│  
+│  Zip file comment:

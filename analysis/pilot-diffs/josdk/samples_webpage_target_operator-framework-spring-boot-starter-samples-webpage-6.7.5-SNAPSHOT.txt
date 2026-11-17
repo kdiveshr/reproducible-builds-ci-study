@@ -1,0 +1,52 @@
+--- E1/build-1/artifacts/samples_webpage_target_operator-framework-spring-boot-starter-samples-webpage-6.7.5-SNAPSHOT.jar
++++ E1/build-2/artifacts/samples_webpage_target_operator-framework-spring-boot-starter-samples-webpage-6.7.5-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,38 +1,38 @@
+│  Zip file size: 21432 bytes, number of entries: 36
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:50 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/customresource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-webpage/
+│  -rw-r--r--  2.0 unx      182 b- defN 26-Nov-17 06:50 javaoperatorsdk/reconcilers
+│  -rw-r--r--  2.0 unx     8414 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/WebPageManagedDependentsReconciler.class
+│  -rw-r--r--  2.0 unx     1704 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/customresource/WebPage.class
+│  -rw-r--r--  2.0 unx     1638 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/customresource/WebPageSpec.class
+│  -rw-r--r--  2.0 unx     1918 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/customresource/WebPageStatus.class
+│ --rw-r--r--  2.0 unx      155 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/service.yaml
+│ +-rw-r--r--  2.0 unx      155 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/service.yaml
+│  -rw-r--r--  2.0 unx      850 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/SpringBootStarterSampleApplication.class
+│  -rw-r--r--  2.0 unx     4724 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/DeploymentDependentResource.class
+│  -rw-r--r--  2.0 unx     2494 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/IngressDependentResource.class
+│  -rw-r--r--  2.0 unx     3908 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/ConfigMapDependentResource.class
+│  -rw-r--r--  2.0 unx     3665 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/ServiceDependentResource.class
+│  -rw-r--r--  2.0 unx     2814 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/dependentresource/ExposedIngressCondition.class
+│  -rw-r--r--  2.0 unx     5526 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/Utils.class
+│ --rw-r--r--  2.0 unx      345 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/ingress.yaml
+│ --rw-r--r--  2.0 unx      512 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/deployment.yaml
+│ +-rw-r--r--  2.0 unx      345 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/ingress.yaml
+│ +-rw-r--r--  2.0 unx      512 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/webpage/deployment.yaml
+│  -rw-r--r--  2.0 unx      893 b- defN 26-Nov-17 06:50 META-INF/fabric8/webpages.sample.javaoperatorsdk-v1.yml
+│  -rw-r--r--  2.0 unx      858 b- defN 26-Nov-17 06:50 META-INF/fabric8/webpages.sample.javaoperatorsdk-v1beta1.yml
+│ --rw-r--r--  2.0 unx      128 b- defN 26-Nov-17 06:49 application.yaml
+│ +-rw-r--r--  2.0 unx      128 b- defN 26-Nov-17 06:50 application.yaml
+│  -rw-r--r--  2.0 unx     2279 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-webpage/pom.xml
+│  -rw-r--r--  2.0 unx      116 b- defN 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-webpage/pom.properties
+│  36 files, 43204 bytes uncompressed, 14070 bytes compressed:  67.4%

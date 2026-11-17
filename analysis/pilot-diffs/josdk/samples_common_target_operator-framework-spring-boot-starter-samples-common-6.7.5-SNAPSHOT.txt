@@ -1,0 +1,51 @@
+--- E1/build-1/artifacts/samples_common_target_operator-framework-spring-boot-starter-samples-common-6.7.5-SNAPSHOT.jar
++++ E1/build-2/artifacts/samples_common_target_operator-framework-spring-boot-starter-samples-common-6.7.5-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,25 +1,25 @@
+│  Zip file size: 9399 bytes, number of entries: 23
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:49 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/fabric8/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-common/
+│ --rw-r--r--  2.0 unx      146 b- defN 26-Nov-17 06:49 javaoperatorsdk/reconcilers
+│ --rw-r--r--  2.0 unx      909 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/CustomService.class
+│ --rw-r--r--  2.0 unx     5546 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/CustomServiceReconciler.class
+│ --rw-r--r--  2.0 unx     3542 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/ConfigMapDependentResource.class
+│ --rw-r--r--  2.0 unx      801 b- defN 26-Nov-17 06:49 io/javaoperatorsdk/operator/springboot/starter/sample/ServiceSpec.class
+│ --rw-r--r--  2.0 unx      693 b- defN 26-Nov-17 06:49 META-INF/fabric8/customservices.sample.javaoperatorsdk-v1beta1.yml
+│ --rw-r--r--  2.0 unx      710 b- defN 26-Nov-17 06:49 META-INF/fabric8/customservices.sample.javaoperatorsdk-v1.yml
+│ --rw-r--r--  2.0 unx      394 b- defN 26-Nov-17 06:49 log4j2.xml
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 06:50 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/fabric8/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-common/
+│ +-rw-r--r--  2.0 unx      146 b- defN 26-Nov-17 06:50 javaoperatorsdk/reconcilers
+│ +-rw-r--r--  2.0 unx      909 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/CustomService.class
+│ +-rw-r--r--  2.0 unx     5546 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/CustomServiceReconciler.class
+│ +-rw-r--r--  2.0 unx     3542 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/ConfigMapDependentResource.class
+│ +-rw-r--r--  2.0 unx      801 b- defN 26-Nov-17 06:50 io/javaoperatorsdk/operator/springboot/starter/sample/ServiceSpec.class
+│ +-rw-r--r--  2.0 unx      693 b- defN 26-Nov-17 06:50 META-INF/fabric8/customservices.sample.javaoperatorsdk-v1beta1.yml
+│ +-rw-r--r--  2.0 unx      710 b- defN 26-Nov-17 06:50 META-INF/fabric8/customservices.sample.javaoperatorsdk-v1.yml
+│ +-rw-r--r--  2.0 unx      394 b- defN 26-Nov-17 06:50 log4j2.xml
+│  -rw-r--r--  2.0 unx     1387 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-common/pom.xml
+│ --rw-r--r--  2.0 unx      115 b- defN 26-Nov-17 06:49 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-common/pom.properties
+│ +-rw-r--r--  2.0 unx      115 b- defN 26-Nov-17 06:50 META-INF/maven/io.javaoperatorsdk/operator-framework-spring-boot-starter-samples-common/pom.properties
+│  23 files, 14324 bytes uncompressed, 5503 bytes compressed:  61.6%
