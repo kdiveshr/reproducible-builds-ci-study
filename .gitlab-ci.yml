@@ -1,16 +1,13 @@
-# E2: GitLab CI environment. Runs two instrumented builds of one pinned commit
-# inside the builder image and uploads the build records, logs, and artifacts
-# for diff analysis.
-#
-# This project mirrors the GitHub study repository; the pipeline definition
-# lives in the mirrored repo. Jobs run ONLY on the project's self-hosted
-# runner (tag: study-runner) — GitLab.com shared runners require card
-# verification and are not used.
-#
+# E2: GitLab CI environment. This file is COPIED into the GitLab project
+# (GitLab.com Free has no pull mirroring, so the GitLab project holds only
+# this file); each job clones the harness from this repository.
+# Jobs run ONLY on the project's self-hosted runner (tag: study-runner).
 # Triggered manually (web UI or API) with REPO_URL and COMMIT_SHA variables.
 
 study-build:
-  image: ghcr.io/kdiveshr/reproducible-builds-ci-study-builder:latest
+  image:
+    name: ghcr.io/kdiveshr/reproducible-builds-ci-study-builder:latest
+    pull_policy: [always]
   tags:
     - study-runner
   timeout: 45m
@@ -20,14 +17,18 @@ study-build:
   variables:
     REPO_URL: ""
     COMMIT_SHA: ""
+    STUDY_REF: "main"
   script:
     - |
       if [ -z "$REPO_URL" ] || [ -z "$COMMIT_SHA" ]; then
         echo "REPO_URL and COMMIT_SHA pipeline variables are required" >&2
         exit 2
       fi
+    - git clone --depth 1 --branch "$STUDY_REF" https://github.com/kdiveshr/reproducible-builds-ci-study.git /tmp/study-harness
+    - mkdir -p "$CI_PROJECT_DIR/out"
+    - git -C /tmp/study-harness rev-parse HEAD > "$CI_PROJECT_DIR/out/harness-commit.txt"
     - export BUILDER_IMAGE="$CI_JOB_IMAGE"
-    - bash harness/run-build.sh "$REPO_URL" "$COMMIT_SHA" E2 "$CI_PROJECT_DIR/work" "$CI_PROJECT_DIR/out"
+    - bash /tmp/study-harness/harness/run-build.sh "$REPO_URL" "$COMMIT_SHA" E2 "$CI_PROJECT_DIR/work" "$CI_PROJECT_DIR/out"
   artifacts:
     when: always
     paths:

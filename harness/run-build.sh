@@ -9,6 +9,7 @@
 #
 # Usage: run-build.sh <repo-url> <commit-sha> <env-name> <work-root> <out-root>
 # Output: <out-root>/<slug>/<env-name>/build-{1,2}/ + run-manifest.json
+#   + harness-commit.txt (the harness revision that ran this pair)
 # Exit code: 0 only if both builds succeeded.
 set -euo pipefail
 
@@ -26,6 +27,12 @@ SHORT_SHA="${COMMIT_SHA:0:12}"
 TARGET_DIR="$WORK_ROOT/$SLUG-$SHORT_SHA"
 RUN_OUT="$OUT_ROOT/$SLUG/$ENV_NAME"
 mkdir -p "$WORK_ROOT" "$RUN_OUT"
+
+# Record which harness revision ran this pair. Best effort: the harness
+# directory is a git checkout in all three environments, but provenance
+# must never fail the run (safe.directory covers container ownership).
+HARNESS_COMMIT="$(git -c safe.directory='*' -C "$(dirname "$HARNESS_DIR")" rev-parse HEAD 2>/dev/null || echo unknown)"
+printf '%s\n' "$HARNESS_COMMIT" > "$RUN_OUT/harness-commit.txt"
 
 if [ -d "$TARGET_DIR" ]; then rm -rf "$TARGET_DIR"; fi
 git clone --quiet "$REPO_URL" "$TARGET_DIR"

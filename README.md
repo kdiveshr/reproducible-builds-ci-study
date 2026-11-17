@@ -21,7 +21,9 @@ with the article.
 - **E1** — GitHub Actions hosted runner, build inside the builder container.
 - **E2** — GitLab CI, build inside the builder image on the project's
   self-hosted runner (tag `study-runner`). GitLab.com shared runners are not
-  used (they require card verification on the free tier).
+  used (they require card verification on the free tier). Pull mirroring is
+  Premium-only, so the GitLab project holds only a copy of `.gitlab-ci.yml`
+  and each job clones the harness from here.
 - **E3** — Local Docker on a dedicated host, same builder image.
 
 The builder image is published to GHCR from
@@ -40,7 +42,8 @@ captures the arch-native digest actually used.
 - `harness/record.py` — writes `build-record.json` per build.
 - `harness/sample_frame.py` — sample-frame enumeration (seeded, auditable).
 - `.github/workflows/study-build.yml` — E1 pipeline (manual dispatch).
-- `.gitlab-ci.yml` — E2 pipeline (manual, with `REPO_URL`/`COMMIT_SHA`).
+- `.gitlab-ci.yml` — E2 pipeline definition, copied into the GitLab project
+  (manual, with `REPO_URL`/`COMMIT_SHA`).
 - `docs/study-design.md` — full study design.
 
 ## Method in brief
@@ -74,5 +77,8 @@ hashes, the resolution fingerprint, a sanitized environment snapshot, and
 
 ## Status
 
-Harness under construction; pilot (5 projects end-to-end) pending. Nothing is
-published from this repository yet.
+Harness v1 complete. Pilot project 1 (introproventures/graphql-jpa-query)
+built twice each in E1 and E3: 0/14 artifacts matched between any two builds
+— zip entry timestamps only, contents byte-identical. E2 is wired up (runner
+online) and pending GitLab account identity verification. Full 5-project
+pilot pending. Nothing is published from this repository yet.
