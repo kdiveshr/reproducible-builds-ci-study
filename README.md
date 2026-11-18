@@ -3,11 +3,12 @@
 An empirical study: does the CI environment itself change the built artifact,
 when the source, toolchain, and build command are held constant?
 
-Every large reproducibility measurement so far builds everything on one
-machine, on a single CI platform, or confounds environment change with the
-passage of time. This study runs a controlled same-source, multi-environment,
-hash-compared rebuild experiment: the same pinned commit, built twice in each
-of three CI environments, inside the same pinned builder container, with
+Most existing studies have measured reproducibility using a single machine
+or CI platform. Others compare builds made at different points in time,
+making it difficult to determine whether the differences come from the
+environment or from changes that occurred between builds. This study
+isolates that variable: the same pinned commit, built twice in each of
+three CI environments, inside the same pinned builder container, with
 `SOURCE_DATE_EPOCH` fixed to the commit timestamp in all builds. Any
 cross-environment difference is then leakage from the CI environment itself.
 
@@ -93,11 +94,11 @@ Measurement, classification, fix phase, and analysis are complete
   1 of 25 projects (4.0%, Wilson 95% CI 0.7–19.5%) was byte-identical
   across all six builds as-is. Zero genuine dependency drift in all 25.
 - **Causes:** zip entry timestamps dominate (persisting despite
-  `SOURCE_DATE_EPOCH`); entry ordering and build-time metadata embedded as
-  file content appear in a minority of projects. Two causes found here did
-  not fit the published taxonomies and are reported as new codes: ambient CI
-  context leaking into artifacts, and build-time metadata embedded as file
-  content.
+  `SOURCE_DATE_EPOCH`); entry ordering in the baseline appears in one
+  project. Two further mechanisms did not fit the published taxonomies and
+  are reported as new codes: build-time metadata embedded as file content
+  (EMBEDDED_TIME, two projects) and ambient CI context leaking into
+  artifacts (CI_CONTEXT, two projects).
 - **Fixes:** 23 of the 24 mismatching projects became fully byte-identical
   across all six builds after playbook fixes — 20 from the two-line
   `outputTimestamp` change alone. The remaining project (boot-ui) is fixed

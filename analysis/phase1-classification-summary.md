@@ -90,6 +90,3 @@ complete entry-level sweep (all 14 artifacts, every entry hashed).
 - spring-boot-admin's 2 IDENTICAL pairs in `entries-summary.md` are from an
   EXCLUDED project (builder-image library failure) and are not part of the
   sample.
-- The 20% re-classification sample (algafood, amqp, dapr, petclinic, chaos;
-  within-E3 pairs) reproduced all raw codes exactly, including the MIXED
-  nested/embedded cases and amqp's 2 IDENTICAL + 6 TIMESTAMP_ONLY split.
