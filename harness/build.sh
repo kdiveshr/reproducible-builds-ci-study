@@ -35,11 +35,13 @@ JAVA_VERSION=$(java -version 2>&1 | head -3 | tr '\n' ';')
 MAVEN_VERSION=$(mvn -version 2>&1 | head -2 | tr '\n' ';')
 
 # Sanitized environment snapshot: variable names + values, minus anything
-# whose name looks secret-bearing (tokens, passwords, keys, credentials).
+# whose name looks secret-bearing (tokens, passwords, keys, credentials)
+# and minus author-identifying CI variables (name, email).
 ENV_SNAPSHOT_FILE="$OUT_DIR/env-snapshot.txt"
 env | LC_ALL=C sort \
   | grep -viE '^[A-Za-z0-9_]*(TOKEN|SECRET|PASSWORD|PASSWD|PRIVATE|CREDENTIAL)[A-Za-z0-9_]*=' \
   | grep -viE '^[A-Za-z0-9_]*KEY=' \
+  | grep -viE '^(CI_COMMIT_AUTHOR|GITLAB_USER_EMAIL|GITLAB_USER_NAME)=' \
   > "$ENV_SNAPSHOT_FILE" || true
 
 # Fresh per-build local repository: resolution is re-done from Maven Central

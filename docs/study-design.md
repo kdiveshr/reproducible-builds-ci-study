@@ -1,8 +1,8 @@
 # Empirical study design: cross-environment reproducibility of Spring Boot application builds
 
-**Status:** DRAFT for user review — Nov 16, 2026. Nothing run yet; no contact with IEEE Software.
-**Purpose:** A practitioner-scale empirical study that answers the editor-in-chief's bar (novel contribution, traceable data on IEEE DataPort, solid methodology/validation/evaluation, genuinely the author's own text) using ONLY public open-source artifacts.
-**Basis:** Literature scan of Nov 16–17, 2026 (31 sources).
+**Status:** COMPLETE — Nov 18, 2026. Measurement, classification, fix phase, and analysis finished; replication package assembled. Article in preparation.
+**Purpose:** A practitioner-scale empirical study designed to meet the bar for a peer-reviewed practitioner article: a novel contribution, traceable data published with the article, solid methodology, validation and evaluation, and the author's own text — using only public open-source artifacts.
+**Basis:** Literature scan of Nov 16–17, 2026 (31 sources) covering reproducibility-rate measurement, Java cause taxonomies, and fix-effort studies.
 
 ## 1. The gap, in one paragraph
 
@@ -120,12 +120,12 @@ Builder image Dockerfile + digest; build scripts; per-build SHA-256 hashes + ful
 
 ## 10. Mapping to the venue's requirements
 
-| Her requirement | How this design answers it |
+| Requirement | How this design answers it |
 |---|---|
 | New and novel, not experience/opinion/analysis | RQ1: controlled cross-environment comparison; Benedetti et al. explicitly excluded platform causes; no controlled study found |
 | Traceable data, DataPort for replication | §9 replication package; every number traceable to a hash, log, or diffoscope report |
 | Solid methodology, validation, evaluation | Controlled design, pilot-first, pre-registered playbook, codebook + re-classification sample, pre-written threats |
-| Company permission for company data | Not applicable — public artifacts only, no company data |
+| Data provenance | All inputs are public open-source artifacts |
 | Genuinely the author's own text | The author writes the article; AI assistance limited to structure/editing help, disclosed per venue policy |
 
 ## 11. Venue constraints (IEEE Software, verified Nov 14)
@@ -145,7 +145,7 @@ Total: ~3 months elapsed spare time before submission. The trade pitches already
 
 ## 13. Decisions
 
-All decided Nov 16 (user):
+All decided Nov 16 (author):
 1. ✅ Tests skipped (`-DskipTests`).
 2. ✅ Maven-only (Gradle as future work).
 3. ✅ Environments E1+E2+E3; E3 (local Docker) runs on the Oracle host.
@@ -156,4 +156,4 @@ All decided Nov 16 (user):
 
 Study repo: https://github.com/kdiveshr/reproducible-builds-ci-study (public, created Nov 16).
 
-Status Nov 18 (morning): PILOT + MEASUREMENT + CLASSIFICATION + FIX PHASE + ANALYSIS COMPLETE. Measurement: 25 of 25 projects (150 builds) — 24 mismatch/partial, 1 fully reproducible (agentcore). Classification: complete incl. diffoscope corroboration (27 reports) and a 20% re-classification sample (36/36 agreement); phase-1 classification summary written. Fix phase: 23 of 24 mismatching projects fully byte-identical across all six builds after playbook fixes; boot-ui fixed except disclosed residuals (19 scm-url confound artifacts + 18 generated-bytecode jars with a genuine cross-environment ordering effect). Analysis: Wilson CIs + McNemar computed (discordance entirely the 19 confound artifacts). Study repo synced Nov 18 (commit 579a011b). Replication package assembly in progress (user-approved Nov 18). Next: DataPort upload (needs the user's account), user's own article writing.
+Status Nov 18 (morning): PILOT + MEASUREMENT + CLASSIFICATION + FIX PHASE + ANALYSIS COMPLETE. Measurement: 25 of 25 projects (150 builds) — 24 mismatch/partial, 1 fully reproducible (agentcore). Classification: complete incl. diffoscope corroboration (27 reports) and a 20% re-classification sample (36/36 agreement); phase-1 classification summary written. Fix phase: 23 of 24 mismatching projects fully byte-identical across all six builds after playbook fixes; boot-ui fixed except disclosed residuals (19 scm-url confound artifacts + 18 generated-bytecode jars with a genuine cross-environment ordering effect). Analysis: Wilson CIs + McNemar computed (discordance entirely the 19 confound artifacts). Replication package assembled and verified Nov 18 (2,118 files; all 338 build records; SHA-256 manifest). Next: DataPort upload, author's article writing.
