@@ -76,6 +76,11 @@ cross = sum(v[2] for v in PROJECTS.values())
 # 19 artifacts match within but not cross (the scm-url confound); none match
 # cross but not within (verified in the boot-ui matrix: E1-vs-E3 differing
 # set = 77 within-diff + 19 cross-only; the 77 differ both ways).
+# Paired comparison on the 2,877 paths common to E1 and E3; the 18 arch-only
+# brotli paths per side have no counterpart and are not pairs. The 18
+# generated-bytecode jars found post-fix are inside the 77: they differed
+# within-environment in the baseline (timestamps) and only became cross-only
+# differences after the fix normalized timestamps.
 b_all, c_all = 19, 0
 # excluding the 19 confound artifacts:
 b_ex, c_ex = 0, 0
