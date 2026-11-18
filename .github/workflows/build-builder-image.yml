@@ -2,12 +2,13 @@ name: build-builder-image
 
 # Builds the study's builder image for linux/amd64 and linux/arm64 from
 # harness/builder/Dockerfile and publishes it to GHCR. All three study
-# environments pull this image, so the toolchain is identical everywhere;
-# each build record captures the arch-native digest actually used.
+# environments pull this image, so the toolchain is identical everywhere.
+# Build records capture the manifest-list digest (E1/E3) or list it as
+# unknown (E2, where the runner's job-image digest is not visible inside
+# the job).
 #
-# NOTE: after the first publish, the package must be public for unauthenticated
-# pulls from GitLab CI and local Docker. If pulls fail with access denied,
-# set the package visibility to public in the repository's Packages settings.
+# The GHCR package must be public: GitLab CI and local Docker pull it
+# without credentials.
 
 on:
   workflow_dispatch:

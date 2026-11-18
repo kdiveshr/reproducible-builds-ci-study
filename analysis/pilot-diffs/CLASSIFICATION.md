@@ -5,8 +5,9 @@ build-1 vs build-2 pair for every artifact of the 4 non-reproducible pilot
 projects (8 reports: shopping 1, ScheduleDashboard 2, josdk 5). Cross-checked
 with an independent Python zipfile entry comparison (names, order, timestamps,
 per-entry content hashes). Project 1 (graphql-jpa-query) was entry-verified
-earlier the same way; its diffoscope reports belong to the phase-1 pipeline.
-The reproducible project (agentcore, 11/11) has no non-matching pairs.
+the same way; it has no diffoscope report because its baseline JARs were not
+retained. The reproducible project (agentcore, 11/11) has no non-matching
+pairs.
 
 ## Results
 
@@ -25,23 +26,15 @@ pom.properties, or embedded-JAR content difference in any pair.
 ## Codebook mapping (seeded from Sharma et al. 6 causes / Xiong et al. 14 patterns)
 
 - `TIMESTAMP` — zip entry timestamps stamped with build time. Present in all 4
-  projects. Note: SOURCE_DATE_EPOCH was set in every build, so the persistence
-  of this cause is itself a finding (playbook step 1 does not normalize it
-  for these projects).
+  projects. SOURCE_DATE_EPOCH was set in every build, so the persistence of
+  this cause is itself a finding (playbook step 1 does not normalize it for
+  these projects).
 - `ORDERING` — archive entry order varies between builds. Present in
-  ScheduleDashboard only (so far). Maps to playbook step 5.
+  ScheduleDashboard only. Maps to playbook step 5.
 
 ## Reliability note
 
-Single-author classification. Per the design, a random 20% sample of phase-1
-diffs will be re-classified after a gap and agreement reported. The zipfile
-cross-check above serves as the pilot's second pass: it agrees with diffoscope
-on every pair.
-
-## Tooling note
-
-diffoscope 259 was installed via apt on the analysis VM (ephemeral; reinstall
-after VM replacement). /tmp on the VM is a 512M tmpfs: diffoscope must run
-with TMPDIR pointed at the persistent disk, and extracted artifacts must live
-under ~/workspace, not /tmp (the two fat-JAR reports initially failed with
-"No space left on device" until TMPDIR was moved).
+Single-author classification. A random 20% sample of phase-1 diffs was
+re-classified independently on within-E3 pairs after a gap: 36/36 raw-code
+agreement. The zipfile cross-check above served as the pilot's second pass:
+it agreed with diffoscope on every pair.

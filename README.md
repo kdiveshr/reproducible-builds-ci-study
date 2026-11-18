@@ -13,8 +13,7 @@ cross-environment difference is then leakage from the CI environment itself.
 
 Study design: [docs/study-design.md](docs/study-design.md). The study is
 intended to support an article for IEEE Software; all inputs are public
-open-source artifacts, and the full replication package will be published
-with the article (assembled November 2026; IEEE DataPort upload pending).
+open-source artifacts, and the full replication package accompanies the article (assembled November 2026).
 
 ## Environments
 

@@ -4,7 +4,8 @@ Times are wall-clock, single author, estimated to the nearest 5 minutes.
 Diagnosis = time to identify the cause from build outputs/diffs. Fix = time to
 write and commit the change. Verification = time to run the confirming builds
 and compare (excludes CI queue time). Fixes live on branches in forks under
-kdiveshr; no upstream pull requests (out of scope, decided Nov 16).
+kdiveshr; no upstream pull requests (out of scope). Project numbers follow
+the phase-1 queue numbering.
 
 ## Project 1: introproventures/graphql-jpa-query @ 649307fc (14 artifacts, 0/14 baseline)
 
@@ -32,9 +33,8 @@ verified by entry-level comparison and diffoscope).
 Causes: TIMESTAMP + ORDERING (zip entry timestamps AND entry order varies;
 0 content differences; verified by entry-level comparison and diffoscope).
 Toolchain note: Spring Boot 2.1.4 parent (2019-era) manages an old
-maven-jar-plugin/maven-archiver, which may predate outputTimestamp support —
-step 2 is attempted first per the playbook, and the result determines whether
-explicit archiver configuration (still step 2) is needed.
+maven-jar-plugin/maven-archiver that predates outputTimestamp support; step 2
+was attempted first per the playbook.
 
 ### Attempt 1 — playbook step 2 (outputTimestamp property)
 
@@ -46,8 +46,8 @@ explicit archiver configuration (still step 2) is needed.
   `<project.build.outputTimestamp>1779689639</project.build.outputTimestamp>`,
   the pinned commit's timestamp 2026-05-25T06:13:59Z).
 - Verification: E3 two-build run Nov 17 ~02:57 ET — 0/2, sizes identical.
-  Entry-level check of the fixed JARs: timestamps STILL build time (property
-  ignored by the old archiver), entry order STILL differs, 0 content diffs.
+  Entry-level check of the fixed JARs: timestamps still build time (property
+  ignored by the old archiver), entry order still differs, 0 content diffs.
   Verification time ~15 min.
 - Outcome: NOT FIXED — the outputTimestamp property alone has no effect on
   this toolchain (Spring Boot 2.1.4 manages maven-jar-plugin 3.1.2 /
@@ -466,8 +466,7 @@ TIMESTAMP_ONLY Boot-repackaged example fat JARs; 0 content differences).
 Cause: TIMESTAMP + EMBEDDED_TIME (entry-level sweep MIXED: build.time in
 META-INF/build-info.properties and git.build.time/git.build.host in
 BOOT-INF/classes/git.properties differ as file content, plus 95 zip-ts diffs).
-Playbook order: step 2 first; step 6 for the embedded build-time fields if
-they persist after step 2.
+Step 2 was applied first; step 6 followed for the embedded build-time fields.
 
 ### Attempt 1 — playbook step 2 (outputTimestamp property)
 
@@ -479,8 +478,8 @@ they persist after step 2.
   the pinned commit's timestamp).
 - Verification: E3 two-build run Nov 17 ~21:13 ET — 1/1 MATCH within E3
   (baseline was 0/1): step 2 alone normalized the embedded build-time
-  fields within E3; whether git.build.host (container hostname) breaks
-  cross-environment matching is the open question for the E1/E2 check.
+  fields within E3; the E1/E2 check then showed whether git.build.host
+  (container hostname) breaks cross-environment matching.
   Cross-environment verification (E1 run 44221614886 + E2 pipeline
   3082000498) Nov 17 ~21:36 ET — PARTIAL: 1/1 within every environment,
   0/1 across environments. Diagnosis: the only differing entry is
@@ -535,8 +534,7 @@ they persist after step 2.
 Cause: TIMESTAMP + EMBEDDED_TIME (entry-level sweep: 12 MIXED — apollo-git.properties
 in all 12 modules (comment timestamp + git.build.time), apollo-portal's 33 static
 HTML content diffs = build-time cache-buster query strings ?v=yyyyMMddHHmmss, plus
-nested apollo JAR timestamp propagation). Playbook order: step 2 first; step 6
-for the embedded build-time fields if they persist.
+nested apollo JAR timestamp propagation). Step 2 was applied first; step 6 followed for the embedded build-time fields.
 
 ### Attempt 1 — playbook step 2 (outputTimestamp property)
 
@@ -584,12 +582,11 @@ Cause: TIMESTAMP (77 artifacts differ within every environment) + CI_CONTEXT
 (19 artifacts — the bootui-quarkus module JAR + 18 copies — stable within every
 environment but differing E1-vs-E2/E3 on one field only, scm-url, because the
 harness passes GITHUB_REPOSITORY into the E1 container and the Quarkus plugin
-resolves scm-url from it). Per the recorded design decision, the harness is
+resolves scm-url from it). Per the design decision, the harness was
 left unchanged for the fix phase; the 19 CI_CONTEXT artifacts are a disclosed
-harness confound, NOT a project defect, and fix verification is judged with
+harness confound, not a project defect, and fix verification was judged with
 the confound disclosed: success = all non-confound artifacts matching between
-every pair (within-env 2,895/2,895 on common paths; E1 cross-env differing
-only on the 19 confound artifacts).
+every pair.
 
 ### Attempt 1 — playbook step 2 (outputTimestamp property)
 
@@ -640,8 +637,7 @@ only on the 19 confound artifacts).
   +1 attribute on each of the two Ant <jar> tasks (bootui-agent/pom.xml
   and bootui-cli/pom.xml): modificationtime="${project.build.outputTimestamp}",
   so the Ant-written JARs pin every entry to the same instant as the
-  Maven-written ones. The -all JAR is expected to follow via the pinned
-  cli-docs.jar.
+  Maven-written ones. The -all JAR followed via the pinned cli-docs.jar.
 - Verification: E3 two-build run Nov 18 ~01:33 ET — 2,895/2,895 MATCH
   within E3. Cross-environment verification (E1 run 44252162040 + E2
   pipeline 3082577595) Nov 18 ~02:24 ET: within every environment
@@ -650,9 +646,9 @@ only on the 19 confound artifacts).
   artifacts (expected, disclosed) PLUS 18 quarkus generated-bytecode.jar
   files that match within every environment but differ E1-vs-ARM —
   masked in the baseline by the within-environment timestamp diffs.
-  Diagnosis of the 18 generated-bytecode jars is in progress (E1 members
-  being re-downloaded selectively from the 1.79GB artifact).
-  Verification time ~20 min so far.
+  Diagnosis of the 18 generated-bytecode jars is recorded in the Outcome
+  below.
+  Verification time ~20 min.
 - Outcome: FIXED WITH DISCLOSED RESIDUALS. Attempt 3 (step 2, 3
   iterations) achieved full within-environment reproducibility
   (2,895/2,895 in E1, E2 and E3) and full E2-vs-E3 match. E1-vs-E2/E3

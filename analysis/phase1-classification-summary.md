@@ -59,13 +59,13 @@ and arch-specific native payload paths differ in fingerprints).
 
 ## diffoscope corroboration
 
-27 reports total: 8 pilot pairs (`analysis/pilot-diffs/`, text + HTML) and
-19 phase-1 reports (`analysis/phase1-diffs/`, text). Agreement check: 17 of
+27 reports total: 8 pilot pairs (`pilot-diffs/`, text + HTML) and
+19 phase-1 reports (`phase1-diffs/`, text). Agreement check: 17 of
 19 phase-1 reports contain ONLY a zipinfo section (timestamps; no content
 comparator fired); petclinic adds the 2 EMBEDDED_TIME properties files;
 apollo adds apollo-git.properties + 6 nested JARs carrying it. Full agreement
 with the entry-level sweep. Exception: graphql-jpa-query has no diffoscope
-report (baseline JARs not retained locally); its classification rests on the
+report (baseline JARs not retained); its classification rests on the
 complete entry-level sweep (all 14 artifacts, every entry hashed).
 
 ## The boot-ui cases (targeted classification)

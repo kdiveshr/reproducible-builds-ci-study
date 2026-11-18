@@ -17,7 +17,7 @@ Writes: analysis/classification/entries-<tag>.json per project + entries-summary
 import hashlib, json, os, sys, zipfile
 from collections import Counter
 
-BASE = os.path.expanduser("~/workspace/eb1a-reproducibility-study")
+BASE = os.environ.get("STUDY_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(BASE, "analysis", "classification")
 os.makedirs(OUT, exist_ok=True)
 
