@@ -47,6 +47,8 @@ inside the job.
 - `.gitlab-ci.yml` — E2 pipeline definition, copied into the GitLab project
   (manual run; `repo_url`/`commit_sha` inputs).
 - `docs/study-design.md` — full study design.
+- `sources.md` — every sampled project: repository link, pinned commit
+  built, and fix fork/branch/commit.
 - `analysis/` — diffoscope reports, entry-level classifications, the
   classification summary, and the analysis scripts + results.
 - `fixes/` — the RQ3 effort ledger (diagnosis/fix/verification time, diff

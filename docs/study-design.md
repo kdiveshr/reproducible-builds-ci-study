@@ -149,7 +149,7 @@ The playbook was written and frozen BEFORE phase-1 results were seen, so it cann
 
 ## 9. Replication package (IEEE DataPort)
 
-Builder image Dockerfile + digest; build scripts; per-build SHA-256 hashes + full logs; dependency hash records; diffoscope reports; classification codebook + classifications; fix diffs; effort ledger; sample frame + selection/exclusion log; analysis scripts + figure data. Goal: one documented command re-runs any project's build in any environment.
+Builder image Dockerfile + digest; build scripts; per-build SHA-256 hashes + full logs; dependency hash records; diffoscope reports; classification codebook + classifications; fix diffs; effort ledger; sample frame + selection/exclusion log; source links (repository + pinned commit + fix fork per project); analysis scripts + figure data. Goal: one documented command re-runs any project's build in any environment.
 
 ## 10. Mapping to the venue's requirements
 
