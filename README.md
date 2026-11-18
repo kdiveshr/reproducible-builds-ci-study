@@ -14,22 +14,25 @@ cross-environment difference is then leakage from the CI environment itself.
 Study design: [docs/study-design.md](docs/study-design.md). The study is
 intended to support an article for IEEE Software; all inputs are public
 open-source artifacts, and the full replication package will be published
-with the article.
+with the article (assembled November 2026; IEEE DataPort upload pending).
 
 ## Environments
 
-- **E1** — GitHub Actions hosted runner, build inside the builder container.
+- **E1** — GitHub Actions hosted runner (AMD64), build inside the builder
+  container.
 - **E2** — GitLab CI, build inside the builder image on the project's
-  self-hosted runner (tag `study-runner`). GitLab.com shared runners are not
-  used (they require card verification on the free tier). Pull mirroring is
-  Premium-only, so the GitLab project holds only a copy of `.gitlab-ci.yml`
-  and each job clones the harness from here.
-- **E3** — Local Docker on a dedicated host, same builder image.
+  self-hosted runner (tag `study-runner`, ARM64). GitLab.com shared runners
+  are not used (they require card verification on the free tier). Pull
+  mirroring is Premium-only, so the GitLab project holds only a copy of
+  `.gitlab-ci.yml` and each job clones the harness from here.
+- **E3** — Local Docker on a dedicated ARM64 host, same builder image.
 
 The builder image is published to GHCR from
 [`.github/workflows/build-builder-image.yml`](.github/workflows/build-builder-image.yml)
-for `linux/amd64` and `linux/arm64` from one Dockerfile; each build record
-captures the arch-native digest actually used.
+for `linux/amd64` and `linux/arm64` from one Dockerfile. E1 and E3 build
+records capture the image's manifest-list digest; E2 records list the digest
+as unknown, because the GitLab runner's job-image digest is not visible
+inside the job.
 
 ## Layout
 
@@ -45,6 +48,10 @@ captures the arch-native digest actually used.
 - `.gitlab-ci.yml` — E2 pipeline definition, copied into the GitLab project
   (manual run; `repo_url`/`commit_sha` inputs).
 - `docs/study-design.md` — full study design.
+- `analysis/` — diffoscope reports, entry-level classifications, the
+  classification summary, and the analysis scripts + results.
+- `fixes/` — the RQ3 effort ledger (diagnosis/fix/verification time, diff
+  size, iterations, outcome per project).
 
 ## Method in brief
 
@@ -52,8 +59,9 @@ captures the arch-native digest actually used.
   Maven wrapper scripts are deliberately not used; the pinned Maven in the
   builder image is the toolchain. Tests are skipped: they do not ship in the
   JAR and flaky tests add noise unrelated to the artifact question.
-- Two builds per environment (six per project in phase 1). Identity is
-  strict bitwise identity: SHA-256 of the built fat JAR.
+- Two builds per environment (six per project). Identity is strict bitwise
+  identity: SHA-256 of every produced JAR; a project matches only if all of
+  its artifacts match.
 - Each build uses a fresh per-build local Maven repository, so dependency
   resolution is fully re-done per build; a fingerprint of everything resolved
   is recorded to detect registry drift.
@@ -75,10 +83,29 @@ Outputs land under `out/<repo-slug>/<env>/build-{1,2}/`: build logs, artifact
 hashes, the resolution fingerprint, a sanitized environment snapshot, and
 `build-record.json`.
 
-## Status
+## Status and results
 
-Harness v1 complete. Pilot project 1 (introproventures/graphql-jpa-query)
-built twice each in E1 and E3: 0/14 artifacts matched between any two builds
-— zip entry timestamps only, contents byte-identical. E2 is wired up (runner
-online) and pending GitLab account identity verification. Full 5-project
-pilot pending. Nothing is published from this repository yet.
+Measurement, classification, fix phase, and analysis are complete
+(November 2026).
+
+- **Sample:** 25 public Spring Boot (Maven) projects, 150 builds.
+  1 of 25 projects (4.0%, Wilson 95% CI 0.7–19.5%) was byte-identical
+  across all six builds as-is. Zero genuine dependency drift in all 25.
+- **Causes:** zip entry timestamps dominate (persisting despite
+  `SOURCE_DATE_EPOCH`); entry ordering and build-time metadata embedded as
+  file content appear in a minority of projects. Two causes found here did
+  not fit the published taxonomies and are reported as new codes: ambient CI
+  context leaking into artifacts, and build-time metadata embedded as file
+  content.
+- **Fixes:** 23 of the 24 mismatching projects became fully byte-identical
+  across all six builds after playbook fixes — 20 from the two-line
+  `outputTimestamp` change alone. The remaining project (boot-ui) is fixed
+  within every environment, with disclosed cross-environment residuals.
+- **Cross- vs within-environment:** excluding the one scale outlier, the
+  within-environment and cross-environment match rates are identical
+  (13/97 artifacts each); the entire raw cross-environment effect is
+  attributable to a disclosed harness artifact (see the design doc).
+
+Full numbers, the classification codebook, threats to validity, and the
+replication-package specification are in the design doc; per-build hashes,
+logs, and diffoscope reports are in the replication package.
