@@ -1,0 +1,912 @@
+--- E1/build-1/artifacts/target_transacao-estatistica-api-0.0.1-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_transacao-estatistica-api-0.0.1-SNAPSHOT.jar
+├── zipinfo -v {}
+│ @@ -26,15 +26,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          4 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -60,15 +60,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         0d9403fb
+│    compressed size:                                292 bytes
+│    uncompressed size:                              527 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3718,15 +3718,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3749,15 +3749,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             17 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3779,17 +3779,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             21 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3797,15 +3797,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #123:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/
+│ @@ -3815,17 +3815,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             26 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3833,15 +3833,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #124:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/
+│ @@ -3851,17 +3851,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             34 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3869,15 +3869,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #125:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/
+│ @@ -3887,17 +3887,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             58 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3905,15 +3905,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #126:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/dto/
+│ @@ -3923,17 +3923,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             62 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3941,15 +3941,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #127:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/service/
+│ @@ -3959,17 +3959,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             66 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3977,15 +3977,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #128:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/controller/
+│ @@ -3995,17 +3995,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             69 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4013,15 +4013,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #129:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/exception/
+│ @@ -4031,17 +4031,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             68 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4049,15 +4049,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #130:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/com/itau/desafio/transacaoestatisticaapi/repository/
+│ @@ -4067,17 +4067,17 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             69 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4085,15 +4085,15 @@
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #131:
+│  ---------------------------
+│  
+│    META-INF/maven/
+│ @@ -4103,15 +4103,15 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:52
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4131,15 +4131,15 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:52
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             32 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4159,15 +4159,15 @@
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:52
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             58 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4188,17 +4188,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         6fed4e3c
+│    compressed size:                                443 bytes
+│    uncompressed size:                              838 bytes
+│    length of filename:                             98 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4206,15 +4206,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #135:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4227,17 +4227,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         7088bcb1
+│    compressed size:                                1037 bytes
+│    uncompressed size:                              2627 bytes
+│    length of filename:                             84 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4245,15 +4245,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #136:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4266,17 +4266,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         9a9db813
+│    compressed size:                                869 bytes
+│    uncompressed size:                              2182 bytes
+│    length of filename:                             87 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4284,15 +4284,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #137:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4305,17 +4305,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         22e57f07
+│    compressed size:                                1977 bytes
+│    uncompressed size:                              4890 bytes
+│    length of filename:                             90 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4323,15 +4323,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #138:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4344,17 +4344,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         c8be9aa8
+│    compressed size:                                550 bytes
+│    uncompressed size:                              1218 bytes
+│    length of filename:                             88 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4362,15 +4362,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #139:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4383,17 +4383,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         689a777d
+│    compressed size:                                1197 bytes
+│    uncompressed size:                              3073 bytes
+│    length of filename:                             94 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4401,15 +4401,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #140:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4422,17 +4422,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         9f6decf6
+│    compressed size:                                604 bytes
+│    uncompressed size:                              1512 bytes
+│    length of filename:                             96 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4440,15 +4440,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #141:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4461,17 +4461,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         dd75fa89
+│    compressed size:                                774 bytes
+│    uncompressed size:                              2043 bytes
+│    length of filename:                             96 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4479,15 +4479,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #142:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4500,17 +4500,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:32
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:32 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:50
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:50 UTC
+│    32-bit CRC value (hex):                         83eb3077
+│    compressed size:                                641 bytes
+│    uncompressed size:                              1373 bytes
+│    length of filename:                             94 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4518,15 +4518,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 d0 7e 98 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 65 39 a3 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #143:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4539,17 +4539,17 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:30
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:30 local
+│ -  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:30 UTC
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:48
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:48 local
+│ +  file last modified on (UT extra field modtime): 2026 Nov 17 19:12:48 UTC
+│    32-bit CRC value (hex):                         7a520030
+│    compressed size:                                49 bytes
+│    uncompressed size:                              50 bytes
+│    length of filename:                             39 characters
+│    length of extra field:                          45 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4557,15 +4557,15 @@
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x5455 (universal time) and 5 data bytes.
+│      The local extra field has UTC/GMT modification time.
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 00 a3 4d 97 c7 76 dd 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 00 38 08 a2 c7 76 dd 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #144:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4609,15 +4609,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:52
+│    32-bit CRC value (hex):                         96ecb87f
+│    compressed size:                                82 bytes
+│    uncompressed size:                              85 bytes
+│    length of filename:                             72 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4640,15 +4640,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             13 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -6099,15 +6099,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         bd27ba63
+│    compressed size:                                563 bytes
+│    uncompressed size:                              2384 bytes
+│    length of filename:                             22 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -6130,15 +6130,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 19:12:34
+│ +  file last modified on (DOS date/time):          2026 Nov 17 19:12:54
+│    32-bit CRC value (hex):                         d635e6b5
+│    compressed size:                                124 bytes
+│    uncompressed size:                              212 bytes
+│    length of filename:                             19 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1

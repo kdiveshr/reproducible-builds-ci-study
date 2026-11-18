@@ -1,0 +1,1022 @@
+--- E1/build-1/artifacts/apollo-adminservice_target_apollo-adminservice-3.1.0-SNAPSHOT.jar
++++ E1/build-2/artifacts/apollo-adminservice_target_apollo-adminservice-3.1.0-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 113548614 bytes, number of entries: 364
+│ -drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 19:45 META-INF/
+│ --rw-r--r--  2.0 unx      579 bl defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ +Zip file size: 113548611 bytes, number of entries: 364
+│ +drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 19:47 META-INF/
+│ +-rw-r--r--  2.0 unx      579 bl defN 26-Nov-17 19:47 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx       66 bl defN 80-Feb-01 00:00 META-INF/services/java.nio.file.spi.FileSystemProvider
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jar/
+│ @@ -115,68 +115,68 @@
+│  -rw-r--r--  2.0 unx    12417 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipContent.class
+│  -rw-r--r--  2.0 unx     4841 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipDataDescriptorRecord.class
+│  -rw-r--r--  2.0 unx     2105 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord$Located.class
+│  -rw-r--r--  2.0 unx     6496 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord.class
+│  -rw-r--r--  2.0 unx     5545 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipLocalFileHeaderRecord.class
+│  -rw-r--r--  2.0 unx     1474 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString$CompareType.class
+│  -rw-r--r--  2.0 unx     7975 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/classes/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/filter/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/
+│ --rw-r--r--  2.0 unx      642 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-kubernetes.properties
+│ --rw-r--r--  2.0 unx      765 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-nacos-discovery.properties
+│ --rw-r--r--  2.0 unx     2118 bX defN 26-Nov-17 19:45 BOOT-INF/classes/logback.xml
+│ --rw-r--r--  2.0 unx      849 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-zookeeper-discovery.properties
+│ --rw-r--r--  2.0 unx     2419 bX defN 26-Nov-17 19:45 BOOT-INF/classes/apollo-git.properties
+│ --rw-r--r--  2.0 unx      643 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-custom-defined-discovery.properties
+│ --rw-r--r--  2.0 unx      758 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-github.properties
+│ --rw-r--r--  2.0 unx      768 bX defN 26-Nov-17 19:45 BOOT-INF/classes/adminservice.properties
+│ --rw-r--r--  2.0 unx     1700 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application.yml
+│ --rw-r--r--  2.0 unx     1038 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-consul-discovery.properties
+│ --rw-r--r--  2.0 unx      778 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application-database-discovery.properties
+│ --rw-r--r--  2.0 unx     3609 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/filter/AdminServiceAuthenticationFilter.class
+│ --rw-r--r--  2.0 unx     1439 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceApplication.class
+│ --rw-r--r--  2.0 unx     4719 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ClusterController.class
+│ --rw-r--r--  2.0 unx    12024 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseController.class
+│ --rw-r--r--  2.0 unx     2403 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ItemSetController.class
+│ --rw-r--r--  2.0 unx     7205 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AppController.class
+│ --rw-r--r--  2.0 unx    12503 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/InstanceConfigController.class
+│ --rw-r--r--  2.0 unx     5444 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AppNamespaceController.class
+│ --rw-r--r--  2.0 unx      927 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseHistoryController$1.class
+│ --rw-r--r--  2.0 unx     7595 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceBranchController.class
+│ --rw-r--r--  2.0 unx      735 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/IndexController.class
+│ --rw-r--r--  2.0 unx    16000 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ItemController.class
+│ --rw-r--r--  2.0 unx     7070 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceController.class
+│ --rw-r--r--  2.0 unx     3788 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AccessKeyController.class
+│ --rw-r--r--  2.0 unx     2974 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceLockController.class
+│ --rw-r--r--  2.0 unx     6277 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseHistoryController.class
+│ --rw-r--r--  2.0 unx     2137 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ServerConfigController.class
+│ --rw-r--r--  2.0 unx     2417 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/CommitController.class
+│ --rw-r--r--  2.0 unx     1991 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceAutoConfiguration.class
+│ --rw-r--r--  2.0 unx      992 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/ServletInitializer.class
+│ --rw-r--r--  2.0 unx     7701 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/NamespaceAcquireLockAspect.class
+│ --rw-r--r--  2.0 unx     8356 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/NamespaceUnlockAspect.class
+│ --rw-r--r--  2.0 unx      443 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/PreAcquireNamespaceLock.class
+│ --rw-r--r--  2.0 unx     1550 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceHealthIndicator.class
+│ --rw-r--r--  2.0 unx     1209 bX defN 26-Nov-17 19:45 BOOT-INF/classes/application.properties
+│ --rw-r--r--  2.0 unx     5828 bl defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/pom.xml
+│ --rw-r--r--  2.0 unx       89 bl defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/lib/
+│ --rw-r--r--  2.0 unx   162860 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-biz-3.1.0-SNAPSHOT.jar
+│ --rw-r--r--  2.0 unx    88495 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-common-3.1.0-SNAPSHOT.jar
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:47 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:47 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/filter/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/
+│ +-rw-r--r--  2.0 unx      642 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-kubernetes.properties
+│ +-rw-r--r--  2.0 unx      765 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-nacos-discovery.properties
+│ +-rw-r--r--  2.0 unx     2118 bX defN 26-Nov-17 19:47 BOOT-INF/classes/logback.xml
+│ +-rw-r--r--  2.0 unx      849 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-zookeeper-discovery.properties
+│ +-rw-r--r--  2.0 unx     2419 bX defN 26-Nov-17 19:47 BOOT-INF/classes/apollo-git.properties
+│ +-rw-r--r--  2.0 unx      643 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-custom-defined-discovery.properties
+│ +-rw-r--r--  2.0 unx      758 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-github.properties
+│ +-rw-r--r--  2.0 unx      768 bX defN 26-Nov-17 19:47 BOOT-INF/classes/adminservice.properties
+│ +-rw-r--r--  2.0 unx     1700 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application.yml
+│ +-rw-r--r--  2.0 unx     1038 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-consul-discovery.properties
+│ +-rw-r--r--  2.0 unx      778 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application-database-discovery.properties
+│ +-rw-r--r--  2.0 unx     3609 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/filter/AdminServiceAuthenticationFilter.class
+│ +-rw-r--r--  2.0 unx     1439 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceApplication.class
+│ +-rw-r--r--  2.0 unx     4719 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ClusterController.class
+│ +-rw-r--r--  2.0 unx    12024 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseController.class
+│ +-rw-r--r--  2.0 unx     2403 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ItemSetController.class
+│ +-rw-r--r--  2.0 unx     7205 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AppController.class
+│ +-rw-r--r--  2.0 unx    12503 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/InstanceConfigController.class
+│ +-rw-r--r--  2.0 unx     5444 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AppNamespaceController.class
+│ +-rw-r--r--  2.0 unx      927 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseHistoryController$1.class
+│ +-rw-r--r--  2.0 unx     7595 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceBranchController.class
+│ +-rw-r--r--  2.0 unx      735 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/IndexController.class
+│ +-rw-r--r--  2.0 unx    16000 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ItemController.class
+│ +-rw-r--r--  2.0 unx     7070 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceController.class
+│ +-rw-r--r--  2.0 unx     3788 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/AccessKeyController.class
+│ +-rw-r--r--  2.0 unx     2974 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/NamespaceLockController.class
+│ +-rw-r--r--  2.0 unx     6277 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ReleaseHistoryController.class
+│ +-rw-r--r--  2.0 unx     2137 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/ServerConfigController.class
+│ +-rw-r--r--  2.0 unx     2417 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/controller/CommitController.class
+│ +-rw-r--r--  2.0 unx     1991 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceAutoConfiguration.class
+│ +-rw-r--r--  2.0 unx      992 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/ServletInitializer.class
+│ +-rw-r--r--  2.0 unx     7701 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/NamespaceAcquireLockAspect.class
+│ +-rw-r--r--  2.0 unx     8356 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/NamespaceUnlockAspect.class
+│ +-rw-r--r--  2.0 unx      443 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/aop/PreAcquireNamespaceLock.class
+│ +-rw-r--r--  2.0 unx     1550 bX defN 26-Nov-17 19:47 BOOT-INF/classes/com/ctrip/framework/apollo/adminservice/AdminServiceHealthIndicator.class
+│ +-rw-r--r--  2.0 unx     1209 bX defN 26-Nov-17 19:47 BOOT-INF/classes/application.properties
+│ +-rw-r--r--  2.0 unx     5828 bl defN 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/pom.xml
+│ +-rw-r--r--  2.0 unx       89 bl defN 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-adminservice/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:47 BOOT-INF/lib/
+│ +-rw-r--r--  2.0 unx   162860 b- stor 26-Nov-17 19:47 BOOT-INF/lib/apollo-biz-3.1.0-SNAPSHOT.jar
+│ +-rw-r--r--  2.0 unx    88495 b- stor 26-Nov-17 19:46 BOOT-INF/lib/apollo-common-3.1.0-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx    92021 b- stor 26-Feb-19 08:19 BOOT-INF/lib/apollo-core-2.5.0.jar
+│  -rw-r--r--  2.0 unx   289901 b- stor 25-Sep-10 13:37 BOOT-INF/lib/gson-2.13.2.jar
+│  -rw-r--r--  2.0 unx    20389 b- stor 25-Jul-24 15:34 BOOT-INF/lib/error_prone_annotations-2.41.0.jar
+│  -rw-r--r--  2.0 unx  3057607 b- stor 80-Feb-01 00:00 BOOT-INF/lib/guava-33.7.1-jre.jar
+│  -rw-r--r--  2.0 unx    10763 b- stor 24-Dec-16 21:43 BOOT-INF/lib/failureaccess-1.0.3.jar
+│  -rw-r--r--  2.0 unx     2199 b- stor 80-Jan-01 03:00 BOOT-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+│  -rw-r--r--  2.0 unx    16762 b- stor 25-Aug-14 10:49 BOOT-INF/lib/j2objc-annotations-3.1.jar
+│ @@ -245,16 +245,16 @@
+│  -rw-r--r--  2.0 unx    43620 b- stor 80-Feb-01 00:00 BOOT-INF/lib/micrometer-registry-prometheus-1.17.1.jar
+│  -rw-r--r--  2.0 unx   100282 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-core-1.7.0.jar
+│  -rw-r--r--  2.0 unx   134326 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-model-1.7.0.jar
+│  -rw-r--r--  2.0 unx    49788 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-config-1.7.0.jar
+│  -rw-r--r--  2.0 unx     3440 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-tracer-common-1.7.0.jar
+│  -rw-r--r--  2.0 unx  2070163 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-exposition-formats-1.7.0.jar
+│  -rw-r--r--  2.0 unx    42795 b- stor 26-Jun-04 10:43 BOOT-INF/lib/prometheus-metrics-exposition-textformats-1.7.0.jar
+│ --rw-r--r--  2.0 unx     9785 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-audit-api-3.1.0-SNAPSHOT.jar
+│ --rw-r--r--  2.0 unx     7124 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-audit-annotation-3.1.0-SNAPSHOT.jar
+│ +-rw-r--r--  2.0 unx     9786 b- stor 26-Nov-17 19:46 BOOT-INF/lib/apollo-audit-api-3.1.0-SNAPSHOT.jar
+│ +-rw-r--r--  2.0 unx     7122 b- stor 26-Nov-17 19:46 BOOT-INF/lib/apollo-audit-annotation-3.1.0-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx     2445 b- stor 26-Jun-11 15:30 BOOT-INF/lib/spring-cloud-starter-netflix-eureka-client-5.0.2.jar
+│  -rw-r--r--  2.0 unx   154421 b- stor 26-Jun-11 15:25 BOOT-INF/lib/spring-cloud-netflix-eureka-client-5.0.2.jar
+│  -rw-r--r--  2.0 unx    55772 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jackson2-4.1.1.jar
+│  -rw-r--r--  2.0 unx    36039 b- stor 26-Jul-06 18:51 BOOT-INF/lib/jackson-datatype-jdk8-2.21.5.jar
+│  -rw-r--r--  2.0 unx   136584 b- stor 26-Jul-06 18:51 BOOT-INF/lib/jackson-datatype-jsr310-2.21.5.jar
+│  -rw-r--r--  2.0 unx    10186 b- stor 26-Jul-06 18:51 BOOT-INF/lib/jackson-module-parameter-names-2.21.5.jar
+│  -rw-r--r--  2.0 unx  1057058 b- stor 21-Jan-10 15:31 BOOT-INF/lib/httpclient5-5.6.4.jar
+│ @@ -313,16 +313,16 @@
+│  -rw-r--r--  2.0 unx    37404 b- stor 26-Jul-20 17:05 BOOT-INF/lib/netty-tcnative-classes-2.0.81.Final.jar
+│  -rw-r--r--  2.0 unx  1386628 b- stor 26-Jul-20 17:08 BOOT-INF/lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-x86_64.jar
+│  -rw-r--r--  2.0 unx  1289167 b- stor 26-Jul-20 17:12 BOOT-INF/lib/netty-tcnative-boringssl-static-2.0.81.Final-linux-aarch_64.jar
+│  -rw-r--r--  2.0 unx  1253638 b- stor 26-Jul-20 17:04 BOOT-INF/lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-x86_64.jar
+│  -rw-r--r--  2.0 unx  1146534 b- stor 26-Jul-20 17:01 BOOT-INF/lib/netty-tcnative-boringssl-static-2.0.81.Final-osx-aarch_64.jar
+│  -rw-r--r--  2.0 unx  1156194 b- stor 26-Jul-20 17:00 BOOT-INF/lib/netty-tcnative-boringssl-static-2.0.81.Final-windows-x86_64.jar
+│  -rw-r--r--  2.0 unx   515978 b- stor 24-Sep-15 14:44 BOOT-INF/lib/commons-io-2.17.0.jar
+│ --rw-r--r--  2.0 unx     8096 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-audit-spring-boot-starter-3.1.0-SNAPSHOT.jar
+│ --rw-r--r--  2.0 unx    45375 b- stor 26-Nov-17 19:45 BOOT-INF/lib/apollo-audit-impl-3.1.0-SNAPSHOT.jar
+│ +-rw-r--r--  2.0 unx     8096 b- stor 26-Nov-17 19:46 BOOT-INF/lib/apollo-audit-spring-boot-starter-3.1.0-SNAPSHOT.jar
+│ +-rw-r--r--  2.0 unx    45375 b- stor 26-Nov-17 19:46 BOOT-INF/lib/apollo-audit-impl-3.1.0-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx   641255 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-security-core-7.1.1.jar
+│  -rw-r--r--  2.0 unx   118836 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-security-crypto-7.1.1.jar
+│  -rw-r--r--  2.0 unx  1399435 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-context-7.0.9.jar
+│  -rw-r--r--  2.0 unx   327140 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-expression-7.0.9.jar
+│  -rw-r--r--  2.0 unx   372740 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-autoconfigure-4.1.1.jar
+│  -rw-r--r--  2.0 unx  1392217 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-4.1.1.jar
+│  -rw-r--r--  2.0 unx     2201 b- stor 26-Aug-17 13:34 BOOT-INF/lib/spring-cloud-starter-5.0.3.jar
+│ @@ -356,11 +356,11 @@
+│  -rw-r--r--  2.0 unx    67380 b- stor 24-Feb-14 00:00 BOOT-INF/lib/jakarta.activation-api-2.1.4.jar
+│  -rw-r--r--  2.0 unx   770452 b- stor 18-Jul-01 18:02 BOOT-INF/lib/javassist-3.23.1-GA.jar
+│  -rw-r--r--  2.0 unx    69982 b- stor 26-May-12 18:15 BOOT-INF/lib/slf4j-api-2.0.18.jar
+│  -rw-r--r--  2.0 unx  4656510 b- stor 26-Jul-02 21:12 BOOT-INF/lib/byte-buddy-1.18.11.jar
+│  -rw-r--r--  2.0 unx  2035755 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-core-7.0.9.jar
+│  -rw-r--r--  2.0 unx     3064 b- stor 80-Feb-01 00:00 BOOT-INF/lib/jspecify-1.0.1.jar
+│  -rw-r--r--  2.0 unx    53968 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-tools-4.1.1.jar
+│ --rw-r--r--  2.0 unx     9016 bl defN 26-Nov-17 19:45 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx     9586 bl defN 26-Nov-17 19:45 BOOT-INF/layers.idx
+│ --rw-r--r--  2.0 unx        0 bl defN 26-Nov-17 19:45 META-INF/BOOT.SF
+│ -364 files, 113806693 bytes uncompressed, 113476500 bytes compressed:  0.3%
+│ +-rw-r--r--  2.0 unx     9016 bl defN 26-Nov-17 19:47 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx     9586 bl defN 26-Nov-17 19:47 BOOT-INF/layers.idx
+│ +-rw-r--r--  2.0 unx        0 bl defN 26-Nov-17 19:47 META-INF/BOOT.SF
+│ +364 files, 113806692 bytes uncompressed, 113476497 bytes compressed:  0.3%
+├── BOOT-INF/classes/apollo-git.properties
+│ @@ -1,14 +1,14 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Nov 17 19:45:47 UTC 2026
+│ +#Tue Nov 17 19:47:14 UTC 2026
+│  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│  git.build.host=dd7dcfc83646
+│  git.build.number=
+│  git.build.number.unique=
+│ -git.build.time=2026-11-17T19\:45\:47+0000
+│ +git.build.time=2026-11-17T19\:47\:14+0000
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=3.1.0-SNAPSHOT
+│  git.closest.tag.commit.count=
+│  git.closest.tag.name=
+│  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-biz-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,120 +1,120 @@
+│ │  Zip file size: 162860 bytes, number of entries: 118
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      216 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/grayReleaseRule/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/auth/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/eureka/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/config/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx    13602 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/grayReleaseRule/GrayReleaseRulesHolder.class
+│ │ --rw-r--r--  2.0 unx     3098 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/grayReleaseRule/GrayReleaseRuleCache.class
+│ │ --rw-r--r--  2.0 unx     4704 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/auth/WebSecurityConfig.class
+│ │ --rw-r--r--  2.0 unx     3582 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ReleaseRepository.class
+│ │ --rw-r--r--  2.0 unx     1408 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/AccessKeyRepository.class
+│ │ --rw-r--r--  2.0 unx      643 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/InstanceRepository.class
+│ │ --rw-r--r--  2.0 unx      933 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/PrivilegeRepository.class
+│ │ --rw-r--r--  2.0 unx     1259 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/AuditRepository.class
+│ │ --rw-r--r--  2.0 unx     2007 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/NamespaceRepository.class
+│ │ --rw-r--r--  2.0 unx      930 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/AppRepository.class
+│ │ --rw-r--r--  2.0 unx     1127 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ClusterRepository.class
+│ │ --rw-r--r--  2.0 unx      676 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ServerConfigRepository.class
+│ │ --rw-r--r--  2.0 unx     1193 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ServiceRegistryRepository.class
+│ │ --rw-r--r--  2.0 unx     3613 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/InstanceConfigRepository.class
+│ │ --rw-r--r--  2.0 unx     3861 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ItemRepository.class
+│ │ --rw-r--r--  2.0 unx     3437 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ReleaseHistoryRepository.class
+│ │ --rw-r--r--  2.0 unx     1728 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/ReleaseMessageRepository.class
+│ │ --rw-r--r--  2.0 unx     2459 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/AppNamespaceRepository.class
+│ │ --rw-r--r--  2.0 unx     2264 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/CommitRepository.class
+│ │ --rw-r--r--  2.0 unx     1200 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/GrayReleaseRuleRepository.class
+│ │ --rw-r--r--  2.0 unx      621 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/repository/NamespaceLockRepository.class
+│ │ --rw-r--r--  2.0 unx     1003 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/ApolloBizAssemblyConfiguration.class
+│ │ --rw-r--r--  2.0 unx     3483 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Instance.class
+│ │ --rw-r--r--  2.0 unx     2278 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Namespace.class
+│ │ --rw-r--r--  2.0 unx     2266 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/ReleaseMessage.class
+│ │ --rw-r--r--  2.0 unx     2907 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Cluster.class
+│ │ --rw-r--r--  2.0 unx     2597 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Commit.class
+│ │ --rw-r--r--  2.0 unx     3496 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Release.class
+│ │ --rw-r--r--  2.0 unx     1373 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Audit$OP.class
+│ │ --rw-r--r--  2.0 unx     2502 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/AccessKey.class
+│ │ --rw-r--r--  2.0 unx     3659 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/ReleaseHistory.class
+│ │ --rw-r--r--  2.0 unx     4138 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/ServiceRegistry.class
+│ │ --rw-r--r--  2.0 unx     2722 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/GrayReleaseRule.class
+│ │ --rw-r--r--  2.0 unx     2272 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/ServerConfig.class
+│ │ --rw-r--r--  2.0 unx     2338 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/JpaMapFieldJsonConverter.class
+│ │ --rw-r--r--  2.0 unx      661 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/JpaMapFieldJsonConverter$1.class
+│ │ --rw-r--r--  2.0 unx     2422 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Audit.class
+│ │ --rw-r--r--  2.0 unx     3019 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Item.class
+│ │ --rw-r--r--  2.0 unx     2147 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/Privilege.class
+│ │ --rw-r--r--  2.0 unx      908 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/NamespaceLock.class
+│ │ --rw-r--r--  2.0 unx     4284 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/entity/InstanceConfig.class
+│ │ --rw-r--r--  2.0 unx      264 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/MessageSender.class
+│ │ --rw-r--r--  2.0 unx      320 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/ReleaseMessageListener.class
+│ │ --rw-r--r--  2.0 unx     6967 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/DatabaseMessageSender.class
+│ │ --rw-r--r--  2.0 unx      417 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/Topics.class
+│ │ --rw-r--r--  2.0 unx     9329 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/message/ReleaseMessageScanner.class
+│ │ --rw-r--r--  2.0 unx    10450 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/InstanceService.class
+│ │ --rw-r--r--  2.0 unx      616 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ReleaseService$1.class
+│ │ --rw-r--r--  2.0 unx     3066 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ReleaseMessageService.class
+│ │ --rw-r--r--  2.0 unx     9968 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/NamespaceBranchService.class
+│ │ --rw-r--r--  2.0 unx    20559 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/NamespaceService.class
+│ │ --rw-r--r--  2.0 unx     3803 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/AdminService.class
+│ │ --rw-r--r--  2.0 unx     9834 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/AppNamespaceService.class
+│ │ --rw-r--r--  2.0 unx     4029 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/AccessKeyService.class
+│ │ --rw-r--r--  2.0 unx     4148 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/CommitService.class
+│ │ --rw-r--r--  2.0 unx     2435 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/AuditService.class
+│ │ --rw-r--r--  2.0 unx     1661 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/NamespaceLockService.class
+│ │ --rw-r--r--  2.0 unx     1833 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ReleaseHistoryService$1.class
+│ │ --rw-r--r--  2.0 unx    15041 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ItemService.class
+│ │ --rw-r--r--  2.0 unx     5292 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/AppService.class
+│ │ --rw-r--r--  2.0 unx     6870 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ClusterService.class
+│ │ --rw-r--r--  2.0 unx     2949 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ServerConfigService.class
+│ │ --rw-r--r--  2.0 unx    14175 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ReleaseHistoryService.class
+│ │ --rw-r--r--  2.0 unx     5477 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/BizDBPropertySource.class
+│ │ --rw-r--r--  2.0 unx     9765 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ItemSetService.class
+│ │ --rw-r--r--  2.0 unx     3219 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ServiceRegistryService.class
+│ │ --rw-r--r--  2.0 unx    29893 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/service/ReleaseService.class
+│ │ --rw-r--r--  2.0 unx     2671 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/eureka/ApolloEurekaClientConfig.class
+│ │ --rw-r--r--  2.0 unx     2193 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseServiceRegistryImpl.class
+│ │ --rw-r--r--  2.0 unx     4777 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientImpl.class
+│ │ --rw-r--r--  2.0 unx     2828 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientAlwaysAddSelfInstanceDecoratorImpl.class
+│ │ --rw-r--r--  2.0 unx     2692 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryDeregisterApplicationListener.class
+│ │ --rw-r--r--  2.0 unx     3769 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryHeartbeatApplicationRunner.class
+│ │ --rw-r--r--  2.0 unx     3619 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryClearApplicationRunner.class
+│ │ --rw-r--r--  2.0 unx     1208 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceDiscoveryProperties.class
+│ │ --rw-r--r--  2.0 unx     4532 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryProperties.class
+│ │ --rw-r--r--  2.0 unx     3427 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/ApolloServiceRegistryAutoConfiguration.class
+│ │ --rw-r--r--  2.0 unx     3807 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/configuration/ApolloServiceDiscoveryAutoConfiguration.class
+│ │ --rw-r--r--  2.0 unx      376 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/ServiceInstance.class
+│ │ --rw-r--r--  2.0 unx      322 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseServiceRegistry.class
+│ │ --rw-r--r--  2.0 unx      145 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/package-info.class
+│ │ --rw-r--r--  2.0 unx     4785 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientMemoryCacheDecoratorImpl.class
+│ │ --rw-r--r--  2.0 unx      391 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClient.class
+│ │ --rw-r--r--  2.0 unx      594 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/config/BizConfig$3.class
+│ │ --rw-r--r--  2.0 unx      594 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/config/BizConfig$1.class
+│ │ --rw-r--r--  2.0 unx    13491 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/config/BizConfig.class
+│ │ --rw-r--r--  2.0 unx      592 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/config/BizConfig$2.class
+│ │ --rw-r--r--  2.0 unx     2152 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/ReleaseMessageKeyGenerator.class
+│ │ --rw-r--r--  2.0 unx      908 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/ReleaseKeyGenerator.class
+│ │ --rw-r--r--  2.0 unx     4478 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/ConfigChangeContentBuilder.class
+│ │ --rw-r--r--  2.0 unx     1485 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/EntityManagerUtil.class
+│ │ --rw-r--r--  2.0 unx      798 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/utils/ConfigChangeContentBuilder$ItemPair.class
+│ │ --rw-r--r--  2.0 unx      590 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/biz/ApolloBizConfig.class
+│ │ --rw-r--r--  2.0 unx     2404 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/pom.xml
+│ │ --rw-r--r--  2.0 unx       80 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/pom.properties
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/
+│ │ +-rw-r--r--  2.0 unx      216 b- defN 26-Nov-17 19:47 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/grayReleaseRule/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/auth/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/eureka/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/config/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:47 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx    13602 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/grayReleaseRule/GrayReleaseRulesHolder.class
+│ │ +-rw-r--r--  2.0 unx     3098 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/grayReleaseRule/GrayReleaseRuleCache.class
+│ │ +-rw-r--r--  2.0 unx     4704 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/auth/WebSecurityConfig.class
+│ │ +-rw-r--r--  2.0 unx     3582 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ReleaseRepository.class
+│ │ +-rw-r--r--  2.0 unx     1408 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/AccessKeyRepository.class
+│ │ +-rw-r--r--  2.0 unx      643 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/InstanceRepository.class
+│ │ +-rw-r--r--  2.0 unx      933 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/PrivilegeRepository.class
+│ │ +-rw-r--r--  2.0 unx     1259 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/AuditRepository.class
+│ │ +-rw-r--r--  2.0 unx     2007 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/NamespaceRepository.class
+│ │ +-rw-r--r--  2.0 unx      930 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/AppRepository.class
+│ │ +-rw-r--r--  2.0 unx     1127 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ClusterRepository.class
+│ │ +-rw-r--r--  2.0 unx      676 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ServerConfigRepository.class
+│ │ +-rw-r--r--  2.0 unx     1193 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ServiceRegistryRepository.class
+│ │ +-rw-r--r--  2.0 unx     3613 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/InstanceConfigRepository.class
+│ │ +-rw-r--r--  2.0 unx     3861 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ItemRepository.class
+│ │ +-rw-r--r--  2.0 unx     3437 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ReleaseHistoryRepository.class
+│ │ +-rw-r--r--  2.0 unx     1728 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/ReleaseMessageRepository.class
+│ │ +-rw-r--r--  2.0 unx     2459 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/AppNamespaceRepository.class
+│ │ +-rw-r--r--  2.0 unx     2264 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/CommitRepository.class
+│ │ +-rw-r--r--  2.0 unx     1200 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/GrayReleaseRuleRepository.class
+│ │ +-rw-r--r--  2.0 unx      621 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/repository/NamespaceLockRepository.class
+│ │ +-rw-r--r--  2.0 unx     1003 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/ApolloBizAssemblyConfiguration.class
+│ │ +-rw-r--r--  2.0 unx     3483 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Instance.class
+│ │ +-rw-r--r--  2.0 unx     2278 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Namespace.class
+│ │ +-rw-r--r--  2.0 unx     2266 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/ReleaseMessage.class
+│ │ +-rw-r--r--  2.0 unx     2907 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Cluster.class
+│ │ +-rw-r--r--  2.0 unx     2597 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Commit.class
+│ │ +-rw-r--r--  2.0 unx     3496 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Release.class
+│ │ +-rw-r--r--  2.0 unx     1373 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Audit$OP.class
+│ │ +-rw-r--r--  2.0 unx     2502 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/AccessKey.class
+│ │ +-rw-r--r--  2.0 unx     3659 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/ReleaseHistory.class
+│ │ +-rw-r--r--  2.0 unx     4138 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/ServiceRegistry.class
+│ │ +-rw-r--r--  2.0 unx     2722 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/GrayReleaseRule.class
+│ │ +-rw-r--r--  2.0 unx     2272 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/ServerConfig.class
+│ │ +-rw-r--r--  2.0 unx     2338 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/JpaMapFieldJsonConverter.class
+│ │ +-rw-r--r--  2.0 unx      661 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/JpaMapFieldJsonConverter$1.class
+│ │ +-rw-r--r--  2.0 unx     2422 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Audit.class
+│ │ +-rw-r--r--  2.0 unx     3019 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Item.class
+│ │ +-rw-r--r--  2.0 unx     2147 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/Privilege.class
+│ │ +-rw-r--r--  2.0 unx      908 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/NamespaceLock.class
+│ │ +-rw-r--r--  2.0 unx     4284 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/entity/InstanceConfig.class
+│ │ +-rw-r--r--  2.0 unx      264 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/MessageSender.class
+│ │ +-rw-r--r--  2.0 unx      320 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/ReleaseMessageListener.class
+│ │ +-rw-r--r--  2.0 unx     6967 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/DatabaseMessageSender.class
+│ │ +-rw-r--r--  2.0 unx      417 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/Topics.class
+│ │ +-rw-r--r--  2.0 unx     9329 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/message/ReleaseMessageScanner.class
+│ │ +-rw-r--r--  2.0 unx    10450 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/InstanceService.class
+│ │ +-rw-r--r--  2.0 unx      616 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ReleaseService$1.class
+│ │ +-rw-r--r--  2.0 unx     3066 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ReleaseMessageService.class
+│ │ +-rw-r--r--  2.0 unx     9968 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/NamespaceBranchService.class
+│ │ +-rw-r--r--  2.0 unx    20559 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/NamespaceService.class
+│ │ +-rw-r--r--  2.0 unx     3803 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/AdminService.class
+│ │ +-rw-r--r--  2.0 unx     9834 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/AppNamespaceService.class
+│ │ +-rw-r--r--  2.0 unx     4029 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/AccessKeyService.class
+│ │ +-rw-r--r--  2.0 unx     4148 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/CommitService.class
+│ │ +-rw-r--r--  2.0 unx     2435 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/AuditService.class
+│ │ +-rw-r--r--  2.0 unx     1661 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/NamespaceLockService.class
+│ │ +-rw-r--r--  2.0 unx     1833 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ReleaseHistoryService$1.class
+│ │ +-rw-r--r--  2.0 unx    15041 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ItemService.class
+│ │ +-rw-r--r--  2.0 unx     5292 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/AppService.class
+│ │ +-rw-r--r--  2.0 unx     6870 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ClusterService.class
+│ │ +-rw-r--r--  2.0 unx     2949 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ServerConfigService.class
+│ │ +-rw-r--r--  2.0 unx    14175 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ReleaseHistoryService.class
+│ │ +-rw-r--r--  2.0 unx     5477 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/BizDBPropertySource.class
+│ │ +-rw-r--r--  2.0 unx     9765 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ItemSetService.class
+│ │ +-rw-r--r--  2.0 unx     3219 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ServiceRegistryService.class
+│ │ +-rw-r--r--  2.0 unx    29893 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/service/ReleaseService.class
+│ │ +-rw-r--r--  2.0 unx     2671 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/eureka/ApolloEurekaClientConfig.class
+│ │ +-rw-r--r--  2.0 unx     2193 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseServiceRegistryImpl.class
+│ │ +-rw-r--r--  2.0 unx     4777 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientImpl.class
+│ │ +-rw-r--r--  2.0 unx     2828 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientAlwaysAddSelfInstanceDecoratorImpl.class
+│ │ +-rw-r--r--  2.0 unx     2692 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryDeregisterApplicationListener.class
+│ │ +-rw-r--r--  2.0 unx     3769 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryHeartbeatApplicationRunner.class
+│ │ +-rw-r--r--  2.0 unx     3619 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryClearApplicationRunner.class
+│ │ +-rw-r--r--  2.0 unx     1208 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceDiscoveryProperties.class
+│ │ +-rw-r--r--  2.0 unx     4532 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryProperties.class
+│ │ +-rw-r--r--  2.0 unx     3427 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/ApolloServiceRegistryAutoConfiguration.class
+│ │ +-rw-r--r--  2.0 unx     3807 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/configuration/ApolloServiceDiscoveryAutoConfiguration.class
+│ │ +-rw-r--r--  2.0 unx      376 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/ServiceInstance.class
+│ │ +-rw-r--r--  2.0 unx      322 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseServiceRegistry.class
+│ │ +-rw-r--r--  2.0 unx      145 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/package-info.class
+│ │ +-rw-r--r--  2.0 unx     4785 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClientMemoryCacheDecoratorImpl.class
+│ │ +-rw-r--r--  2.0 unx      391 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/registry/DatabaseDiscoveryClient.class
+│ │ +-rw-r--r--  2.0 unx      594 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/config/BizConfig$3.class
+│ │ +-rw-r--r--  2.0 unx      594 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/config/BizConfig$1.class
+│ │ +-rw-r--r--  2.0 unx    13491 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/config/BizConfig.class
+│ │ +-rw-r--r--  2.0 unx      592 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/config/BizConfig$2.class
+│ │ +-rw-r--r--  2.0 unx     2152 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/ReleaseMessageKeyGenerator.class
+│ │ +-rw-r--r--  2.0 unx      908 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/ReleaseKeyGenerator.class
+│ │ +-rw-r--r--  2.0 unx     4478 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/ConfigChangeContentBuilder.class
+│ │ +-rw-r--r--  2.0 unx     1485 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/EntityManagerUtil.class
+│ │ +-rw-r--r--  2.0 unx      798 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/utils/ConfigChangeContentBuilder$ItemPair.class
+│ │ +-rw-r--r--  2.0 unx      590 b- defN 26-Nov-17 19:47 com/ctrip/framework/apollo/biz/ApolloBizConfig.class
+│ │ +-rw-r--r--  2.0 unx     2404 b- defN 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/pom.xml
+│ │ +-rw-r--r--  2.0 unx       80 b- defN 26-Nov-17 19:47 META-INF/maven/com.ctrip.framework.apollo/apollo-biz/pom.properties
+│ │  118 files, 359543 bytes uncompressed, 139760 bytes compressed:  61.1%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:34 UTC 2026
+│ │ +#Tue Nov 17 19:47:02 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:34+0000
+│ │ +git.build.time=2026-11-17T19\:47\:02+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-common-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,101 +1,101 @@
+│ │  Zip file size: 88495 bytes, number of entries: 99
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      222 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/datasource/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/condition/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/jpa/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/config/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/aop/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-common/
+│ │ --rw-r--r--  2.0 unx      643 b- defN 26-Nov-17 19:45 application-mysql.properties
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx      578 b- defN 26-Nov-17 19:45 application-h2.properties
+│ │ --rw-r--r--  2.0 unx     1425 b- defN 26-Nov-17 19:45 application.yaml
+│ │ --rw-r--r--  2.0 unx      219 b- defN 26-Nov-17 19:45 banner.txt
+│ │ --rw-r--r--  2.0 unx     2440 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ItemInfoDTO.class
+│ │ --rw-r--r--  2.0 unx     1585 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/NamespaceDTO.class
+│ │ --rw-r--r--  2.0 unx     1919 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ClusterDTO.class
+│ │ --rw-r--r--  2.0 unx     2086 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ItemDTO.class
+│ │ --rw-r--r--  2.0 unx     2718 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ReleaseHistoryDTO.class
+│ │ --rw-r--r--  2.0 unx     1634 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/AccessKeyDTO.class
+│ │ --rw-r--r--  2.0 unx     1296 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/InstanceConfigDTO.class
+│ │ --rw-r--r--  2.0 unx     2321 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/InstanceDTO.class
+│ │ --rw-r--r--  2.0 unx     2334 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ReleaseDTO.class
+│ │ --rw-r--r--  2.0 unx     2330 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/GrayReleaseRuleDTO.class
+│ │ --rw-r--r--  2.0 unx     2022 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/BaseDTO.class
+│ │ --rw-r--r--  2.0 unx      628 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/NamespaceLockDTO.class
+│ │ --rw-r--r--  2.0 unx     2191 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/ItemChangeSets.class
+│ │ --rw-r--r--  2.0 unx     1777 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/PageDTO.class
+│ │ --rw-r--r--  2.0 unx     1487 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/CommitDTO.class
+│ │ --rw-r--r--  2.0 unx     2885 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/GrayReleaseRuleItemDTO.class
+│ │ --rw-r--r--  2.0 unx     2368 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/AppDTO.class
+│ │ --rw-r--r--  2.0 unx     1681 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/dto/AppNamespaceDTO.class
+│ │ --rw-r--r--  2.0 unx      278 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/NamespaceBranchStatus.class
+│ │ --rw-r--r--  2.0 unx      727 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/GsonType.class
+│ │ --rw-r--r--  2.0 unx     1075 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/ApolloServer.class
+│ │ --rw-r--r--  2.0 unx      619 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/GsonType$3.class
+│ │ --rw-r--r--  2.0 unx      634 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/GsonType$2.class
+│ │ --rw-r--r--  2.0 unx      233 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/AccessKeyMode.class
+│ │ --rw-r--r--  2.0 unx      607 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/GsonType$1.class
+│ │ --rw-r--r--  2.0 unx      586 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/ReleaseOperation.class
+│ │ --rw-r--r--  2.0 unx      512 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/constants/ReleaseOperationContext.class
+│ │ --rw-r--r--  2.0 unx      969 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/ServiceException.class
+│ │ --rw-r--r--  2.0 unx     1429 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/AbstractApolloHttpException.class
+│ │ --rw-r--r--  2.0 unx     3362 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/NotFoundException.class
+│ │ --rw-r--r--  2.0 unx     4949 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/BadRequestException.class
+│ │ --rw-r--r--  2.0 unx      471 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/exception/BeanUtilsException.class
+│ │ --rw-r--r--  2.0 unx     3433 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/datasource/ApolloDataSourceScriptDatabaseInitializer.class
+│ │ --rw-r--r--  2.0 unx     9894 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/datasource/ApolloDataSourceScriptDatabaseInitializerFactory.class
+│ │ --rw-r--r--  2.0 unx     3150 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/datasource/ApolloSqlInitializationProperties.class
+│ │ --rw-r--r--  2.0 unx     3697 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/App.class
+│ │ --rw-r--r--  2.0 unx     4541 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/BaseEntity.class
+│ │ --rw-r--r--  2.0 unx     3734 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/AppNamespace.class
+│ │ --rw-r--r--  2.0 unx     1324 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/EntityPair.class
+│ │ --rw-r--r--  2.0 unx     1540 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/entity/App$Builder.class
+│ │ --rw-r--r--  2.0 unx     2531 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/http/SearchResponseEntity.class
+│ │ --rw-r--r--  2.0 unx     2200 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/http/MultiResponseEntity.class
+│ │ --rw-r--r--  2.0 unx     1953 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/http/RichResponseEntity.class
+│ │ --rw-r--r--  2.0 unx     1057 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/ApolloCommonConfig.class
+│ │ --rw-r--r--  2.0 unx      698 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/condition/ConditionalOnMissingProfile.class
+│ │ --rw-r--r--  2.0 unx     3573 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/condition/OnProfileCondition.class
+│ │ --rw-r--r--  2.0 unx      684 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/condition/ConditionalOnProfile.class
+│ │ --rw-r--r--  2.0 unx     1514 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/CharacterEncodingFilterConfiguration.class
+│ │ --rw-r--r--  2.0 unx      694 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler$1.class
+│ │ --rw-r--r--  2.0 unx     5534 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/HttpMessageConverterConfiguration.class
+│ │ --rw-r--r--  2.0 unx    11179 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler.class
+│ │ --rw-r--r--  2.0 unx      932 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler$2.class
+│ │ --rw-r--r--  2.0 unx     1220 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/ApolloInfoController.class
+│ │ --rw-r--r--  2.0 unx     4022 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/controller/WebMvcConfig.class
+│ │ --rw-r--r--  2.0 unx     1133 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/jpa/SqlFunctionsMetadataBuilderContributor.class
+│ │ --rw-r--r--  2.0 unx      562 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/jpa/H2Function.class
+│ │ --rw-r--r--  2.0 unx     1033 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/config/RefreshablePropertySource.class
+│ │ --rw-r--r--  2.0 unx     7420 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/config/RefreshableConfig.class
+│ │ --rw-r--r--  2.0 unx     2619 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/aop/RepositoryAspect.class
+│ │ --rw-r--r--  2.0 unx     8032 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/BeanUtils.class
+│ │ --rw-r--r--  2.0 unx      709 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/GrayReleaseRuleItemTransformer$1.class
+│ │ --rw-r--r--  2.0 unx     2445 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/UniqueKeyGenerator.class
+│ │ --rw-r--r--  2.0 unx      619 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/ExceptionUtils$1.class
+│ │ --rw-r--r--  2.0 unx     1641 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/InputValidator.class
+│ │ --rw-r--r--  2.0 unx     3208 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/NamespaceContentSyntaxValidator.class
+│ │ --rw-r--r--  2.0 unx     1454 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/WebUtils.class
+│ │ --rw-r--r--  2.0 unx     2093 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/ExceptionUtils.class
+│ │ --rw-r--r--  2.0 unx     1462 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/RequestPrecondition.class
+│ │ --rw-r--r--  2.0 unx     1969 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/common/utils/GrayReleaseRuleItemTransformer.class
+│ │ --rw-r--r--  2.0 unx      578 b- defN 26-Nov-17 19:45 application-postgre.properties
+│ │ --rw-r--r--  2.0 unx     4012 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-common/pom.xml
+│ │ --rw-r--r--  2.0 unx       83 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-common/pom.properties
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/
+│ │ +-rw-r--r--  2.0 unx      222 b- defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/datasource/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/condition/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/jpa/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/config/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/aop/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-common/
+│ │ +-rw-r--r--  2.0 unx      643 b- defN 26-Nov-17 19:46 application-mysql.properties
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:46 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx      578 b- defN 26-Nov-17 19:46 application-h2.properties
+│ │ +-rw-r--r--  2.0 unx     1425 b- defN 26-Nov-17 19:46 application.yaml
+│ │ +-rw-r--r--  2.0 unx      219 b- defN 26-Nov-17 19:46 banner.txt
+│ │ +-rw-r--r--  2.0 unx     2440 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ItemInfoDTO.class
+│ │ +-rw-r--r--  2.0 unx     1585 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/NamespaceDTO.class
+│ │ +-rw-r--r--  2.0 unx     1919 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ClusterDTO.class
+│ │ +-rw-r--r--  2.0 unx     2086 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ItemDTO.class
+│ │ +-rw-r--r--  2.0 unx     2718 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ReleaseHistoryDTO.class
+│ │ +-rw-r--r--  2.0 unx     1634 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/AccessKeyDTO.class
+│ │ +-rw-r--r--  2.0 unx     1296 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/InstanceConfigDTO.class
+│ │ +-rw-r--r--  2.0 unx     2321 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/InstanceDTO.class
+│ │ +-rw-r--r--  2.0 unx     2334 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ReleaseDTO.class
+│ │ +-rw-r--r--  2.0 unx     2330 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/GrayReleaseRuleDTO.class
+│ │ +-rw-r--r--  2.0 unx     2022 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/BaseDTO.class
+│ │ +-rw-r--r--  2.0 unx      628 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/NamespaceLockDTO.class
+│ │ +-rw-r--r--  2.0 unx     2191 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/ItemChangeSets.class
+│ │ +-rw-r--r--  2.0 unx     1777 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/PageDTO.class
+│ │ +-rw-r--r--  2.0 unx     1487 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/CommitDTO.class
+│ │ +-rw-r--r--  2.0 unx     2885 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/GrayReleaseRuleItemDTO.class
+│ │ +-rw-r--r--  2.0 unx     2368 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/AppDTO.class
+│ │ +-rw-r--r--  2.0 unx     1681 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/dto/AppNamespaceDTO.class
+│ │ +-rw-r--r--  2.0 unx      278 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/NamespaceBranchStatus.class
+│ │ +-rw-r--r--  2.0 unx      727 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/GsonType.class
+│ │ +-rw-r--r--  2.0 unx     1075 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/ApolloServer.class
+│ │ +-rw-r--r--  2.0 unx      619 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/GsonType$3.class
+│ │ +-rw-r--r--  2.0 unx      634 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/GsonType$2.class
+│ │ +-rw-r--r--  2.0 unx      233 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/AccessKeyMode.class
+│ │ +-rw-r--r--  2.0 unx      607 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/GsonType$1.class
+│ │ +-rw-r--r--  2.0 unx      586 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/ReleaseOperation.class
+│ │ +-rw-r--r--  2.0 unx      512 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/constants/ReleaseOperationContext.class
+│ │ +-rw-r--r--  2.0 unx      969 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/ServiceException.class
+│ │ +-rw-r--r--  2.0 unx     1429 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/AbstractApolloHttpException.class
+│ │ +-rw-r--r--  2.0 unx     3362 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/NotFoundException.class
+│ │ +-rw-r--r--  2.0 unx     4949 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/BadRequestException.class
+│ │ +-rw-r--r--  2.0 unx      471 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/exception/BeanUtilsException.class
+│ │ +-rw-r--r--  2.0 unx     3433 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/datasource/ApolloDataSourceScriptDatabaseInitializer.class
+│ │ +-rw-r--r--  2.0 unx     9894 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/datasource/ApolloDataSourceScriptDatabaseInitializerFactory.class
+│ │ +-rw-r--r--  2.0 unx     3150 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/datasource/ApolloSqlInitializationProperties.class
+│ │ +-rw-r--r--  2.0 unx     3697 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/App.class
+│ │ +-rw-r--r--  2.0 unx     4541 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/BaseEntity.class
+│ │ +-rw-r--r--  2.0 unx     3734 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/AppNamespace.class
+│ │ +-rw-r--r--  2.0 unx     1324 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/EntityPair.class
+│ │ +-rw-r--r--  2.0 unx     1540 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/entity/App$Builder.class
+│ │ +-rw-r--r--  2.0 unx     2531 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/http/SearchResponseEntity.class
+│ │ +-rw-r--r--  2.0 unx     2200 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/http/MultiResponseEntity.class
+│ │ +-rw-r--r--  2.0 unx     1953 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/http/RichResponseEntity.class
+│ │ +-rw-r--r--  2.0 unx     1057 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/ApolloCommonConfig.class
+│ │ +-rw-r--r--  2.0 unx      698 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/condition/ConditionalOnMissingProfile.class
+│ │ +-rw-r--r--  2.0 unx     3573 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/condition/OnProfileCondition.class
+│ │ +-rw-r--r--  2.0 unx      684 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/condition/ConditionalOnProfile.class
+│ │ +-rw-r--r--  2.0 unx     1514 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/CharacterEncodingFilterConfiguration.class
+│ │ +-rw-r--r--  2.0 unx      694 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler$1.class
+│ │ +-rw-r--r--  2.0 unx     5534 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/HttpMessageConverterConfiguration.class
+│ │ +-rw-r--r--  2.0 unx    11179 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler.class
+│ │ +-rw-r--r--  2.0 unx      932 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/GlobalDefaultExceptionHandler$2.class
+│ │ +-rw-r--r--  2.0 unx     1220 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/ApolloInfoController.class
+│ │ +-rw-r--r--  2.0 unx     4022 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/controller/WebMvcConfig.class
+│ │ +-rw-r--r--  2.0 unx     1133 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/jpa/SqlFunctionsMetadataBuilderContributor.class
+│ │ +-rw-r--r--  2.0 unx      562 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/jpa/H2Function.class
+│ │ +-rw-r--r--  2.0 unx     1033 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/config/RefreshablePropertySource.class
+│ │ +-rw-r--r--  2.0 unx     7420 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/config/RefreshableConfig.class
+│ │ +-rw-r--r--  2.0 unx     2619 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/aop/RepositoryAspect.class
+│ │ +-rw-r--r--  2.0 unx     8032 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/BeanUtils.class
+│ │ +-rw-r--r--  2.0 unx      709 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/GrayReleaseRuleItemTransformer$1.class
+│ │ +-rw-r--r--  2.0 unx     2445 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/UniqueKeyGenerator.class
+│ │ +-rw-r--r--  2.0 unx      619 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/ExceptionUtils$1.class
+│ │ +-rw-r--r--  2.0 unx     1641 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/InputValidator.class
+│ │ +-rw-r--r--  2.0 unx     3208 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/NamespaceContentSyntaxValidator.class
+│ │ +-rw-r--r--  2.0 unx     1454 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/WebUtils.class
+│ │ +-rw-r--r--  2.0 unx     2093 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/ExceptionUtils.class
+│ │ +-rw-r--r--  2.0 unx     1462 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/RequestPrecondition.class
+│ │ +-rw-r--r--  2.0 unx     1969 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/common/utils/GrayReleaseRuleItemTransformer.class
+│ │ +-rw-r--r--  2.0 unx      578 b- defN 26-Nov-17 19:46 application-postgre.properties
+│ │ +-rw-r--r--  2.0 unx     4012 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-common/pom.xml
+│ │ +-rw-r--r--  2.0 unx       83 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-common/pom.properties
+│ │  99 files, 167835 bytes uncompressed, 69983 bytes compressed:  58.3%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:25 UTC 2026
+│ │ +#Tue Nov 17 19:46:54 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:25+0000
+│ │ +git.build.time=2026-11-17T19\:46\:54+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-audit-api-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,25 +1,25 @@
+│ │ -Zip file size: 9785 bytes, number of entries: 23
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      228 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/dto/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/event/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/api/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx     2587 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDTO.class
+│ │ --rw-r--r--  2.0 unx     1799 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDetailsDTO.class
+│ │ --rw-r--r--  2.0 unx     2276 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDataInfluenceDTO.class
+│ │ --rw-r--r--  2.0 unx     1294 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/event/ApolloAuditLogDataInfluenceEvent.class
+│ │ --rw-r--r--  2.0 unx      287 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/api/ApolloAuditLogApi.class
+│ │ --rw-r--r--  2.0 unx      878 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/api/ApolloAuditLogRecordApi.class
+│ │ --rw-r--r--  2.0 unx     1402 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/api/ApolloAuditLogQueryApi.class
+│ │ --rw-r--r--  2.0 unx     1531 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/pom.xml
+│ │ --rw-r--r--  2.0 unx       86 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/pom.properties
+│ │ -23 files, 14787 bytes uncompressed, 6055 bytes compressed:  59.1%
+│ │ +Zip file size: 9786 bytes, number of entries: 23
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/
+│ │ +-rw-r--r--  2.0 unx      228 b- defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/dto/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/event/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:46 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx     2587 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDTO.class
+│ │ +-rw-r--r--  2.0 unx     1799 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDetailsDTO.class
+│ │ +-rw-r--r--  2.0 unx     2276 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDataInfluenceDTO.class
+│ │ +-rw-r--r--  2.0 unx     1294 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/event/ApolloAuditLogDataInfluenceEvent.class
+│ │ +-rw-r--r--  2.0 unx      287 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/api/ApolloAuditLogApi.class
+│ │ +-rw-r--r--  2.0 unx      878 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/api/ApolloAuditLogRecordApi.class
+│ │ +-rw-r--r--  2.0 unx     1402 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/api/ApolloAuditLogQueryApi.class
+│ │ +-rw-r--r--  2.0 unx     1531 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/pom.xml
+│ │ +-rw-r--r--  2.0 unx       86 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-api/pom.properties
+│ │ +23 files, 14787 bytes uncompressed, 6056 bytes compressed:  59.0%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:19 UTC 2026
+│ │ +#Tue Nov 17 19:46:47 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:19+0000
+│ │ +git.build.time=2026-11-17T19\:46\:47+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-audit-annotation-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,21 +1,21 @@
+│ │ -Zip file size: 7124 bytes, number of entries: 19
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      242 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx      615 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLog.class
+│ │ --rw-r--r--  2.0 unx      454 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluence.class
+│ │ --rw-r--r--  2.0 unx     1340 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/OpType.class
+│ │ --rw-r--r--  2.0 unx      519 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluenceTable.class
+│ │ --rw-r--r--  2.0 unx      530 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluenceTableField.class
+│ │ --rw-r--r--  2.0 unx     1361 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/pom.xml
+│ │ --rw-r--r--  2.0 unx       93 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/pom.properties
+│ │ -19 files, 7573 bytes uncompressed, 3998 bytes compressed:  47.2%
+│ │ +Zip file size: 7122 bytes, number of entries: 19
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/
+│ │ +-rw-r--r--  2.0 unx      242 b- defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:46 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx      615 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLog.class
+│ │ +-rw-r--r--  2.0 unx      454 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluence.class
+│ │ +-rw-r--r--  2.0 unx     1340 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/OpType.class
+│ │ +-rw-r--r--  2.0 unx      519 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluenceTable.class
+│ │ +-rw-r--r--  2.0 unx      530 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/annotation/ApolloAuditLogDataInfluenceTableField.class
+│ │ +-rw-r--r--  2.0 unx     1361 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/pom.xml
+│ │ +-rw-r--r--  2.0 unx       93 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-annotation/pom.properties
+│ │ +19 files, 7573 bytes uncompressed, 3996 bytes compressed:  47.2%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:18 UTC 2026
+│ │ +#Tue Nov 17 19:46:46 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:18+0000
+│ │ +git.build.time=2026-11-17T19\:46\:46+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-audit-spring-boot-starter-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,21 +1,21 @@
+│ │  Zip file size: 8096 bytes, number of entries: 19
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      260 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/spring/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/configuration/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx      156 b- defN 26-Nov-17 19:45 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│ │ --rw-r--r--  2.0 unx      226 b- defN 26-Nov-17 19:45 META-INF/spring.factories
+│ │ --rw-r--r--  2.0 unx     3758 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/configuration/ApolloAuditNoOpAutoConfiguration.class
+│ │ --rw-r--r--  2.0 unx     6547 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/configuration/ApolloAuditAutoConfiguration.class
+│ │ --rw-r--r--  2.0 unx     1683 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/pom.xml
+│ │ --rw-r--r--  2.0 unx      102 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/pom.properties
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/
+│ │ +-rw-r--r--  2.0 unx      260 b- defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/spring/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/configuration/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:46 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx      156 b- defN 26-Nov-17 19:46 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│ │ +-rw-r--r--  2.0 unx      226 b- defN 26-Nov-17 19:46 META-INF/spring.factories
+│ │ +-rw-r--r--  2.0 unx     3758 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/configuration/ApolloAuditNoOpAutoConfiguration.class
+│ │ +-rw-r--r--  2.0 unx     6547 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/configuration/ApolloAuditAutoConfiguration.class
+│ │ +-rw-r--r--  2.0 unx     1683 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/pom.xml
+│ │ +-rw-r--r--  2.0 unx      102 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-spring-boot-starter/pom.properties
+│ │  19 files, 15151 bytes uncompressed, 5068 bytes compressed:  66.6%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:28 UTC 2026
+│ │ +#Tue Nov 17 19:46:57 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:28+0000
+│ │ +git.build.time=2026-11-17T19\:46\:57+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd
+├── BOOT-INF/lib/apollo-audit-impl-3.1.0-SNAPSHOT.jar
+│ ├── zipinfo {}
+│ │ @@ -1,58 +1,58 @@
+│ │  Zip file size: 45375 bytes, number of entries: 56
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/
+│ │ --rw-r--r--  2.0 unx      230 b- defN 26-Nov-17 19:45 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/defaultimpl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/repository/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/constants/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/listener/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/component/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/service/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/controller/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/aop/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/
+│ │ --rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:45 apollo-git.properties
+│ │ --rw-r--r--  2.0 unx      614 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/defaultimpl/ApolloAuditLogQueryApiDefaultPreAuthorizer.class
+│ │ --rw-r--r--  2.0 unx     1588 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/defaultimpl/ApolloAuditOperatorDefaultSupplier.class
+│ │ --rw-r--r--  2.0 unx      223 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/ApolloAuditLogQueryApiPreAuthorizer.class
+│ │ --rw-r--r--  2.0 unx      217 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/spi/ApolloAuditOperatorSupplier.class
+│ │ --rw-r--r--  2.0 unx     1875 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditSpanContext.class
+│ │ --rw-r--r--  2.0 unx     3055 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditTracer$AuditSpanBuilder.class
+│ │ --rw-r--r--  2.0 unx     1708 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditScope.class
+│ │ --rw-r--r--  2.0 unx     2081 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditTraceContext.class
+│ │ --rw-r--r--  2.0 unx     6610 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditTracer.class
+│ │ --rw-r--r--  2.0 unx     2902 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditSpan.class
+│ │ --rw-r--r--  2.0 unx     1656 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/context/ApolloAuditScopeManager.class
+│ │ --rw-r--r--  2.0 unx     1479 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/repository/ApolloAuditLogDataInfluenceRepository.class
+│ │ --rw-r--r--  2.0 unx     2217 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/repository/ApolloAuditLogRepository.class
+│ │ --rw-r--r--  2.0 unx      745 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/ApolloAuditProperties.class
+│ │ --rw-r--r--  2.0 unx      579 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/constants/ApolloAuditConstants.class
+│ │ --rw-r--r--  2.0 unx     1437 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/listener/ApolloAuditLogDataInfluenceEventListener.class
+│ │ --rw-r--r--  2.0 unx     2853 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/ApolloAuditLog.class
+│ │ --rw-r--r--  2.0 unx     2884 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/ApolloAuditLogDataInfluence.class
+│ │ --rw-r--r--  2.0 unx     2177 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/ApolloAuditLog$Builder.class
+│ │ --rw-r--r--  2.0 unx     3194 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/BaseEntity.class
+│ │ --rw-r--r--  2.0 unx     1756 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/entity/ApolloAuditLogDataInfluence$Builder.class
+│ │ --rw-r--r--  2.0 unx     1707 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/component/ApolloAuditHttpInterceptor.class
+│ │ --rw-r--r--  2.0 unx      942 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiJpaImpl$1.class
+│ │ --rw-r--r--  2.0 unx    10954 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiJpaImpl.class
+│ │ --rw-r--r--  2.0 unx     4015 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiNoOpImpl.class
+│ │ --rw-r--r--  2.0 unx     6020 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/service/ApolloAuditLogService.class
+│ │ --rw-r--r--  2.0 unx     3107 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/service/ApolloAuditLogDataInfluenceService.class
+│ │ --rw-r--r--  2.0 unx     3918 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/controller/ApolloAuditController.class
+│ │ --rw-r--r--  2.0 unx     1164 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/ApolloAuditRegistrar.class
+│ │ --rw-r--r--  2.0 unx     8032 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/util/ApolloAuditUtil.class
+│ │ --rw-r--r--  2.0 unx     5561 b- defN 26-Nov-17 19:45 com/ctrip/framework/apollo/audit/aop/ApolloAuditSpanAspect.class
+│ │ --rw-r--r--  2.0 unx     2402 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/pom.xml
+│ │ --rw-r--r--  2.0 unx       87 b- defN 26-Nov-17 19:45 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/pom.properties
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/
+│ │ +-rw-r--r--  2.0 unx      230 b- defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/defaultimpl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/repository/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/constants/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/listener/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/component/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/service/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/controller/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/aop/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/
+│ │ +-rw-r--r--  2.0 unx     2419 b- defN 26-Nov-17 19:46 apollo-git.properties
+│ │ +-rw-r--r--  2.0 unx      614 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/defaultimpl/ApolloAuditLogQueryApiDefaultPreAuthorizer.class
+│ │ +-rw-r--r--  2.0 unx     1588 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/defaultimpl/ApolloAuditOperatorDefaultSupplier.class
+│ │ +-rw-r--r--  2.0 unx      223 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/ApolloAuditLogQueryApiPreAuthorizer.class
+│ │ +-rw-r--r--  2.0 unx      217 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/spi/ApolloAuditOperatorSupplier.class
+│ │ +-rw-r--r--  2.0 unx     1875 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditSpanContext.class
+│ │ +-rw-r--r--  2.0 unx     3055 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditTracer$AuditSpanBuilder.class
+│ │ +-rw-r--r--  2.0 unx     1708 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditScope.class
+│ │ +-rw-r--r--  2.0 unx     2081 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditTraceContext.class
+│ │ +-rw-r--r--  2.0 unx     6610 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditTracer.class
+│ │ +-rw-r--r--  2.0 unx     2902 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditSpan.class
+│ │ +-rw-r--r--  2.0 unx     1656 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/context/ApolloAuditScopeManager.class
+│ │ +-rw-r--r--  2.0 unx     1479 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/repository/ApolloAuditLogDataInfluenceRepository.class
+│ │ +-rw-r--r--  2.0 unx     2217 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/repository/ApolloAuditLogRepository.class
+│ │ +-rw-r--r--  2.0 unx      745 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/ApolloAuditProperties.class
+│ │ +-rw-r--r--  2.0 unx      579 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/constants/ApolloAuditConstants.class
+│ │ +-rw-r--r--  2.0 unx     1437 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/listener/ApolloAuditLogDataInfluenceEventListener.class
+│ │ +-rw-r--r--  2.0 unx     2853 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/ApolloAuditLog.class
+│ │ +-rw-r--r--  2.0 unx     2884 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/ApolloAuditLogDataInfluence.class
+│ │ +-rw-r--r--  2.0 unx     2177 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/ApolloAuditLog$Builder.class
+│ │ +-rw-r--r--  2.0 unx     3194 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/BaseEntity.class
+│ │ +-rw-r--r--  2.0 unx     1756 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/entity/ApolloAuditLogDataInfluence$Builder.class
+│ │ +-rw-r--r--  2.0 unx     1707 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/component/ApolloAuditHttpInterceptor.class
+│ │ +-rw-r--r--  2.0 unx      942 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiJpaImpl$1.class
+│ │ +-rw-r--r--  2.0 unx    10954 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiJpaImpl.class
+│ │ +-rw-r--r--  2.0 unx     4015 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/component/ApolloAuditLogApiNoOpImpl.class
+│ │ +-rw-r--r--  2.0 unx     6020 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/service/ApolloAuditLogService.class
+│ │ +-rw-r--r--  2.0 unx     3107 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/service/ApolloAuditLogDataInfluenceService.class
+│ │ +-rw-r--r--  2.0 unx     3918 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/controller/ApolloAuditController.class
+│ │ +-rw-r--r--  2.0 unx     1164 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/ApolloAuditRegistrar.class
+│ │ +-rw-r--r--  2.0 unx     8032 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/util/ApolloAuditUtil.class
+│ │ +-rw-r--r--  2.0 unx     5561 b- defN 26-Nov-17 19:46 com/ctrip/framework/apollo/audit/aop/ApolloAuditSpanAspect.class
+│ │ +-rw-r--r--  2.0 unx     2402 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/pom.xml
+│ │ +-rw-r--r--  2.0 unx       87 b- defN 26-Nov-17 19:46 META-INF/maven/com.ctrip.framework.apollo/apollo-audit-impl/pom.properties
+│ │  56 files, 92408 bytes uncompressed, 34839 bytes compressed:  62.3%
+│ ├── apollo-git.properties
+│ │ @@ -1,14 +1,14 @@
+│ │  #Generated by Git-Commit-Id-Plugin
+│ │ -#Tue Nov 17 19:45:27 UTC 2026
+│ │ +#Tue Nov 17 19:46:56 UTC 2026
+│ │  git.branch=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.build.host=dd7dcfc83646
+│ │  git.build.number=
+│ │  git.build.number.unique=
+│ │ -git.build.time=2026-11-17T19\:45\:27+0000
+│ │ +git.build.time=2026-11-17T19\:46\:56+0000
+│ │  git.build.user.email=
+│ │  git.build.user.name=
+│ │  git.build.version=3.1.0-SNAPSHOT
+│ │  git.closest.tag.commit.count=
+│ │  git.closest.tag.name=
+│ │  git.commit.id=504e5cd7d49bde328e9bc558688828159ed55aeb
+│ │  git.commit.id.abbrev=504e5cd

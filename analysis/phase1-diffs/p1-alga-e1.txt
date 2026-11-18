@@ -1,0 +1,88 @@
+--- E1/build-1/artifacts/target_algafood-api-0.0.1-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_algafood-api-0.0.1-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 43912394 bytes, number of entries: 221
+│ -drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:04 META-INF/
+│ --rw-r--r--  2.0 unx      475 bl defN 26-Nov-17 14:04 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:05 META-INF/
+│ +-rw-r--r--  2.0 unx      475 bl defN 26-Nov-17 14:05 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/
+│  -rw-r--r--  2.0 unx     5871 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/ClassPathIndexFile.class
+│  -rw-r--r--  2.0 unx     7675 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/ExecutableArchiveLauncher.class
+│  -rw-r--r--  2.0 unx     2551 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/JarLauncher.class
+│ @@ -74,16 +74,16 @@
+│  -rw-r--r--  2.0 unx     1813 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jar/ZipInflaterInputStream.class
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jarmode/
+│  -rw-r--r--  2.0 unx      293 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jarmode/JarMode.class
+│  -rw-r--r--  2.0 unx     2201 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jarmode/JarModeLauncher.class
+│  -rw-r--r--  2.0 unx     1292 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jarmode/TestJarMode.class
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/util/
+│  -rw-r--r--  2.0 unx     5174 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/util/SystemPropertyUtils.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:04 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:04 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:05 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:05 BOOT-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/db/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/db/migration/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/db/testdata/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/infrastructure/
+│ @@ -93,17 +93,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/api/controller/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/repository/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/exception/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/exceptionHandler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/service/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 META-INF/maven/com.algaworks/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:04 META-INF/maven/com.algaworks/algafood-api/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:05 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:05 META-INF/maven/com.algaworks/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:05 META-INF/maven/com.algaworks/algafood-api/
+│  -rw-r--r--  2.0 unx      562 bl defN 26-Nov-17 14:04 META-INF/orm.xml
+│  -rw-r--r--  2.0 unx      135 bl defN 26-Nov-17 14:04 BOOT-INF/classes/flyway.properties
+│  -rw-r--r--  2.0 unx     1766 bl defN 26-Nov-17 14:04 BOOT-INF/classes/db/migration/V007__criar-tabelas-pedido-item-pedido.sql
+│  -rw-r--r--  2.0 unx      152 bl defN 26-Nov-17 14:04 BOOT-INF/classes/db/migration/V001__criacao-inicial.sql
+│  -rw-r--r--  2.0 unx      111 bl defN 26-Nov-17 14:04 BOOT-INF/classes/db/migration/V005__cria-tabela-teste.sql
+│  -rw-r--r--  2.0 unx       17 bl defN 26-Nov-17 14:04 BOOT-INF/classes/db/migration/V006__remove-tabela-teste.sql
+│  -rw-r--r--  2.0 unx     3634 bl defN 26-Nov-17 14:04 BOOT-INF/classes/db/migration/V004__cria-varias-tabelas.sql
+│ @@ -154,16 +154,16 @@
+│  -rw-r--r--  2.0 unx     3765 bl defN 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/Produto.class
+│  -rw-r--r--  2.0 unx     4221 bl defN 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/Usuario.class
+│  -rw-r--r--  2.0 unx     1346 bl defN 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/StatusPedido.class
+│  -rw-r--r--  2.0 unx     2878 bl defN 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/Cidade.class
+│  -rw-r--r--  2.0 unx     4266 bl defN 26-Nov-17 14:04 BOOT-INF/classes/com/algaworks/algafood/domain/model/ItemPedido.class
+│  -rw-r--r--  2.0 unx      601 bl defN 26-Nov-17 14:04 BOOT-INF/classes/application.properties
+│  -rw-r--r--  2.0 unx     2725 bl defN 26-Nov-17 14:04 META-INF/maven/com.algaworks/algafood-api/pom.xml
+│ --rw-r--r--  2.0 unx       69 bl defN 26-Nov-17 14:04 META-INF/maven/com.algaworks/algafood-api/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:04 BOOT-INF/lib/
+│ +-rw-r--r--  2.0 unx       69 bl defN 26-Nov-17 14:05 META-INF/maven/com.algaworks/algafood-api/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:05 BOOT-INF/lib/
+│  -rw-r--r--  2.0 unx   231811 b- stor 23-Mar-23 21:02 BOOT-INF/lib/logback-classic-1.2.12.jar
+│  -rw-r--r--  2.0 unx   448860 b- stor 23-Mar-23 21:02 BOOT-INF/lib/logback-core-1.2.12.jar
+│  -rw-r--r--  2.0 unx    18010 b- stor 22-Feb-23 13:30 BOOT-INF/lib/log4j-to-slf4j-2.17.2.jar
+│  -rw-r--r--  2.0 unx   302511 b- stor 22-Feb-23 13:28 BOOT-INF/lib/log4j-api-2.17.2.jar
+│  -rw-r--r--  2.0 unx     4519 b- stor 22-Feb-08 13:31 BOOT-INF/lib/jul-to-slf4j-1.7.36.jar
+│  -rw-r--r--  2.0 unx    25058 b- stor 19-Aug-02 11:08 BOOT-INF/lib/jakarta.annotation-api-1.3.5.jar
+│  -rw-r--r--  2.0 unx   331605 b- stor 21-Dec-14 18:31 BOOT-INF/lib/snakeyaml-1.30.jar
+│ @@ -214,10 +214,10 @@
+│  -rw-r--r--  2.0 unx   632306 b- stor 22-Jun-16 10:32 BOOT-INF/lib/flyway-core-8.5.13.jar
+│  -rw-r--r--  2.0 unx    31151 b- stor 22-Jun-16 10:33 BOOT-INF/lib/flyway-mysql-8.5.13.jar
+│  -rw-r--r--  2.0 unx   587402 b- stor 20-Jan-22 15:10 BOOT-INF/lib/commons-lang3-3.12.0.jar
+│  -rw-r--r--  2.0 unx   258314 b- stor 23-Nov-09 20:57 BOOT-INF/lib/tomcat-embed-el-9.0.83.jar
+│  -rw-r--r--  2.0 unx  1320186 b- stor 22-Sep-12 14:17 BOOT-INF/lib/hibernate-validator-6.2.5.Final.jar
+│  -rw-r--r--  2.0 unx    91930 b- stor 19-Aug-10 21:44 BOOT-INF/lib/jakarta.validation-api-2.0.2.jar
+│  -rw-r--r--  2.0 unx    29514 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-layertools-2.7.18.jar
+│ --rw-r--r--  2.0 unx     2564 bl defN 26-Nov-17 14:04 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 14:04 BOOT-INF/layers.idx
+│ +-rw-r--r--  2.0 unx     2564 bl defN 26-Nov-17 14:05 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 14:05 BOOT-INF/layers.idx
+│  221 files, 44107093 bytes uncompressed, 43868774 bytes compressed:  0.5%

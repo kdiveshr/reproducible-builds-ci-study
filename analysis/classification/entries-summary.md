@@ -1,0 +1,22 @@
+# Entry-level classification (within-E1 pairs)
+
+- **p1-alga-e1** `luanferreiradev_algafood-api-algaworks`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p1-fin-e1** `Pawan-Ghode_Fintech-Payment-Processing-API`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p2-det-e1** `Coelho-Techne_detectionSystem`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p2-ling-e1** `bulangya-bu_linguamate-agent`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p2-pets-e1** `Thissvane_PetsUniverseSpringBoot`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p3-amqp-e1** `amqphub_amqp-10-jms-spring-boot`: 8 pairs — {'IDENTICAL': 2, 'TIMESTAMP_ONLY': 6}
+- **p3-dapr-e1** `dapr_java-sdk`: 17 pairs — {'TIMESTAMP_ONLY': 16, 'MIXED': 1}
+- **p3-sba-e1** `codecentric_spring-boot-admin`: 2 pairs — {'IDENTICAL': 2}
+- **p4-book-e1** `HQfire_book-manager`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p4-ds-e1** `jdbc-observations_datasource-micrometer`: 4 pairs — {'TIMESTAMP_ONLY': 4}
+- **p5-mvc-e1** `diva154_SpringMVC-to-SpringBoot-CRUDoperation-Migration`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p5-vuln-e1** `bansh2eBreak_SpringVulnBoot-backend`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p5-zlm-e1** `lunasaw_zlm-spring-boot-starter`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p6-practice-e1** `penpencil721-lab_spring-boot-practice`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p7-chaos-e1** `codecentric_chaos-monkey-spring-boot`: 9 pairs — {'TIMESTAMP_ONLY': 4, 'MIXED': 5}
+- **p7-itau-e1** `JoseOtavioJunqueira_desafio-itau-backend`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p8-apollo-e1** `apolloconfig_apollo`: 12 pairs — {'MIXED': 12}
+- **p8-petclinic-e1** `spring-petclinic_spring-petclinic-data-jdbc`: 1 pairs — {'MIXED': 1}
+- **p8-social-e1** `thangtranitwork_social-network`: 1 pairs — {'TIMESTAMP_ONLY': 1}
+- **p8-trello-e1** `Temirlan222_trello-main`: 1 pairs — {'TIMESTAMP_ONLY': 1}

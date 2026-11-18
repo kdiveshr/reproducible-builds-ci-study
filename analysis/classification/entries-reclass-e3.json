@@ -1,0 +1,391 @@
+{
+ "amqphub_amqp-10-jms-spring-boot": {
+  "amqp-10-jms-spring-boot-autoconfigure_target_amqp-10-jms-spring-boot-autoconfigure-4.1.11-SNAPSHOT.jar": {
+   "code": "IDENTICAL",
+   "n_entries": 34,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 0
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-custom-configuration_target_amqp-10-jms-spring-boot-custom-configuration-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 186,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-hello-world_target_amqp-10-jms-spring-boot-hello-world-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 187,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-pooled-connection_target_amqp-10-jms-spring-boot-pooled-connection-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 187,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-reply-service_target_amqp-10-jms-spring-boot-reply-service-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 185,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-requestor_target_amqp-10-jms-spring-boot-requestor-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 187,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-simple-container-factory_target_amqp-10-jms-spring-boot-simple-contianer-factory-4.1.11-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 185,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "amqp-10-jms-spring-boot-starter_target_amqp-10-jms-spring-boot-starter-4.1.11-SNAPSHOT.jar": {
+   "code": "IDENTICAL",
+   "n_entries": 8,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 0
+  }
+ },
+ "codecentric_chaos-monkey-spring-boot": {
+  "chaos-monkey-docs_target_chaos-monkey-docs-4.0.1-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 7,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 7
+  },
+  "chaos-monkey-spring-boot_target_chaos-monkey-spring-boot-4.0.1-SNAPSHOT-jar-with-dependencies.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 11406,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 104
+  },
+  "chaos-monkey-spring-boot_target_chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 104,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 104
+  },
+  "demo-apps_chaos-monkey-demo-app-ext-jar_target_chaos-monkey-demo-app-ext-jar-4.0.1-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 190,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 21
+  },
+  "demo-apps_chaos-monkey-demo-app-jdbc_target_chaos-monkey-demo-app-jdbc-4.0.1-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 208,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 1,
+   "content_diffs": [
+    "BOOT-INF/lib/chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 22
+  },
+  "demo-apps_chaos-monkey-demo-app-naked_target_chaos-monkey-demo-app-naked-4.0.1-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 236,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 1,
+   "content_diffs": [
+    "BOOT-INF/lib/chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 32
+  },
+  "demo-apps_chaos-monkey-demo-app-unleash-toggles_target_chaos-monkey-demo-app-unleash-toggles-4.0.1-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 226,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 1,
+   "content_diffs": [
+    "BOOT-INF/lib/chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 33
+  },
+  "demo-apps_chaos-monkey-demo-app_target_chaos-monkey-demo-app-4.0.1-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 256,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 1,
+   "content_diffs": [
+    "BOOT-INF/lib/chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 37
+  },
+  "demo-apps_chaos-monkey-web-reactive-app_target_chaos-monkey-web-reactive-app-4.0.1-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 233,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 1,
+   "content_diffs": [
+    "BOOT-INF/lib/chaos-monkey-spring-boot-4.0.1-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 23
+  }
+ },
+ "dapr_java-sdk": {
+  "dapr-spring_dapr-spring-boot-autoconfigure_target_dapr-spring-boot-autoconfigure-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 18,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 17
+  },
+  "dapr-spring_dapr-spring-boot-observation_target_dapr-spring-boot-observation-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 17,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 16
+  },
+  "dapr-spring_dapr-spring-boot-properties_target_dapr-spring-boot-properties-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 20,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 19
+  },
+  "dapr-spring_dapr-spring-boot-starters_dapr-spring-boot-starter-test_target_dapr-spring-boot-starter-test-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 7,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 6
+  },
+  "dapr-spring_dapr-spring-boot-starters_dapr-spring-boot-starter_target_dapr-spring-boot-starter-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 7,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 6
+  },
+  "dapr-spring_dapr-spring-boot-tests_target_dapr-spring-boot-tests-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 22,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 21
+  },
+  "dapr-spring_dapr-spring-data_target_dapr-spring-data-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 34,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 33
+  },
+  "dapr-spring_dapr-spring-messaging_target_dapr-spring-messaging-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 24,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 23
+  },
+  "dapr-spring_dapr-spring-workflows_target_dapr-spring-workflows-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 17,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 16
+  },
+  "examples_target_dapr-java-sdk-examples-exec.jar": {
+   "code": "MIXED",
+   "n_entries": 447,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 5,
+   "content_diffs": [
+    "BOOT-INF/lib/dapr-sdk-autogen-1.20.0-SNAPSHOT.jar",
+    "BOOT-INF/lib/dapr-sdk-workflows-1.20.0-SNAPSHOT.jar",
+    "BOOT-INF/lib/dapr-sdk-actors-1.20.0-SNAPSHOT.jar",
+    "BOOT-INF/lib/dapr-sdk-springboot-1.20.0-SNAPSHOT.jar",
+    "BOOT-INF/lib/dapr-sdk-1.20.0-SNAPSHOT.jar"
+   ],
+   "n_ts_diffs": 219
+  },
+  "examples_target_dapr-sdk-examples-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 210,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 209
+  },
+  "sdk-actors_target_dapr-sdk-actors-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 64,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 63
+  },
+  "sdk-autogen_target_dapr-sdk-autogen-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 1201,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 1200
+  },
+  "sdk-springboot_target_dapr-sdk-springboot-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 26,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 25
+  },
+  "sdk-workflows_target_dapr-sdk-workflows-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 493,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 492
+  },
+  "sdk_target_dapr-sdk-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 251,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 250
+  },
+  "testcontainers-dapr_target_testcontainers-dapr-1.20.0-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 63,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 62
+  }
+ },
+ "luanferreiradev_algafood-api-algaworks": {
+  "target_algafood-api-0.0.1-SNAPSHOT.jar": {
+   "code": "TIMESTAMP_ONLY",
+   "n_entries": 221,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 0,
+   "content_diffs": [],
+   "n_ts_diffs": 85
+  }
+ },
+ "spring-petclinic_spring-petclinic-data-jdbc": {
+  "target_spring-petclinic-data-jdbc-3.0.0.BUILD-SNAPSHOT.jar": {
+   "code": "MIXED",
+   "n_entries": 321,
+   "membership_diff": [],
+   "n_membership_diff": 0,
+   "order_diff": false,
+   "n_content_diffs": 2,
+   "content_diffs": [
+    "META-INF/build-info.properties",
+    "BOOT-INF/classes/git.properties"
+   ],
+   "n_ts_diffs": 95
+  }
+ }
+}

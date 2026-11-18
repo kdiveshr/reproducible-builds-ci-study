@@ -1,0 +1,52 @@
+--- E1/build-1/artifacts/target_social-network-api-1.2.0-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_social-network-api-1.2.0-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -114,16 +114,16 @@
+│  -rw-r--r--  2.0 unx    12611 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipContent.class
+│  -rw-r--r--  2.0 unx     4841 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipDataDescriptorRecord.class
+│  -rw-r--r--  2.0 unx     2105 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord$Located.class
+│  -rw-r--r--  2.0 unx     6496 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord.class
+│  -rw-r--r--  2.0 unx     5545 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipLocalFileHeaderRecord.class
+│  -rw-r--r--  2.0 unx     1474 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString$CompareType.class
+│  -rw-r--r--  2.0 unx     7973 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/static/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/stopwords/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/templates/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/stu/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/dto/
+│ @@ -436,15 +436,15 @@
+│  -rw-r--r--  2.0 unx     2155 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/validation/validator/ValidFileValidator.class
+│  -rw-r--r--  2.0 unx     1340 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/validation/validator/AgeValidator.class
+│  -rw-r--r--  2.0 unx     2471 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/validation/validator/ValidVoiceValidator.class
+│  -rw-r--r--  2.0 unx     2696 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/validation/validator/ValidFileListValidator.class
+│  -rw-r--r--  2.0 unx     1445 bX defN 26-Nov-17 19:45 BOOT-INF/classes/com/stu/socialnetworkapi/validation/validator/ImageFileValidator.class
+│  -rw-r--r--  2.0 unx     5869 bl defN 26-Nov-17 19:44 META-INF/maven/com.stu/social-network-api/pom.xml
+│  -rw-r--r--  2.0 unx       69 bl defN 26-Nov-17 19:45 META-INF/maven/com.stu/social-network-api/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:45 BOOT-INF/lib/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/lib/
+│  -rw-r--r--  2.0 unx  1774418 b- stor 25-Apr-24 12:52 BOOT-INF/lib/spring-boot-3.4.5.jar
+│  -rw-r--r--  2.0 unx  2014599 b- stor 25-Apr-24 12:52 BOOT-INF/lib/spring-boot-autoconfigure-3.4.5.jar
+│  -rw-r--r--  2.0 unx   306760 b- stor 25-Mar-18 12:42 BOOT-INF/lib/logback-classic-1.5.18.jar
+│  -rw-r--r--  2.0 unx   627250 b- stor 25-Mar-18 12:42 BOOT-INF/lib/logback-core-1.5.18.jar
+│  -rw-r--r--  2.0 unx    23834 b- stor 24-Dec-10 10:15 BOOT-INF/lib/log4j-to-slf4j-2.24.3.jar
+│  -rw-r--r--  2.0 unx   348513 b- stor 24-Dec-10 10:15 BOOT-INF/lib/log4j-api-2.24.3.jar
+│  -rw-r--r--  2.0 unx     6349 b- stor 25-Feb-25 16:36 BOOT-INF/lib/jul-to-slf4j-2.0.17.jar
+│ @@ -581,10 +581,10 @@
+│  -rw-r--r--  2.0 unx    95554 b- stor 25-Feb-14 15:27 BOOT-INF/lib/prometheus-metrics-core-1.3.6.jar
+│  -rw-r--r--  2.0 unx    90911 b- stor 25-Feb-14 15:26 BOOT-INF/lib/prometheus-metrics-model-1.3.6.jar
+│  -rw-r--r--  2.0 unx    33215 b- stor 25-Feb-14 15:26 BOOT-INF/lib/prometheus-metrics-config-1.3.6.jar
+│  -rw-r--r--  2.0 unx     3280 b- stor 25-Feb-14 15:26 BOOT-INF/lib/prometheus-metrics-tracer-common-1.3.6.jar
+│  -rw-r--r--  2.0 unx  2094866 b- stor 25-Feb-14 15:26 BOOT-INF/lib/prometheus-metrics-exposition-formats-1.3.6.jar
+│  -rw-r--r--  2.0 unx    19592 b- stor 25-Feb-14 15:26 BOOT-INF/lib/prometheus-metrics-exposition-textformats-1.3.6.jar
+│  -rw-r--r--  2.0 unx    51517 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-tools-3.4.5.jar
+│ --rw-r--r--  2.0 unx     6937 bl defN 26-Nov-17 19:45 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 19:45 BOOT-INF/layers.idx
+│ +-rw-r--r--  2.0 unx     6937 bl defN 26-Nov-17 19:46 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 19:46 BOOT-INF/layers.idx
+│  588 files, 101431692 bytes uncompressed, 100461564 bytes compressed:  1.0%

@@ -1,0 +1,65 @@
+--- E1/build-1/artifacts/target_PetsUniverse-0.0.1-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_PetsUniverse-0.0.1-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 56051280 bytes, number of entries: 357
+│ -drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:28 META-INF/
+│ --rw-r--r--  2.0 unx      502 bl defN 26-Nov-17 14:28 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:29 META-INF/
+│ +-rw-r--r--  2.0 unx      502 bl defN 26-Nov-17 14:29 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx       66 bl defN 80-Feb-01 00:00 META-INF/services/java.nio.file.spi.FileSystemProvider
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jar/
+│ @@ -115,16 +115,16 @@
+│  -rw-r--r--  2.0 unx    12417 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipContent.class
+│  -rw-r--r--  2.0 unx     4841 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipDataDescriptorRecord.class
+│  -rw-r--r--  2.0 unx     2105 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord$Located.class
+│  -rw-r--r--  2.0 unx     6496 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord.class
+│  -rw-r--r--  2.0 unx     5545 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipLocalFileHeaderRecord.class
+│  -rw-r--r--  2.0 unx     1474 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString$CompareType.class
+│  -rw-r--r--  2.0 unx     7975 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:28 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:28 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:29 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:29 BOOT-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/petsuniverse/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/petsuniverse/controller/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/petsuniverse/controller/api/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/petsuniverse/entity/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 03:16 BOOT-INF/classes/com/example/petsuniverse/repository/
+│ @@ -273,15 +273,15 @@
+│  -rw-r--r--  2.0 unx     2699 bX defN 26-Nov-17 03:16 BOOT-INF/classes/templates/Usuario/Usuario.html
+│  -rw-r--r--  2.0 unx     2071 bX defN 26-Nov-17 03:16 BOOT-INF/classes/templates/Veterinario/NuevoVeterinario.html
+│  -rw-r--r--  2.0 unx     1933 bX defN 26-Nov-17 03:16 BOOT-INF/classes/templates/Veterinario/Veterinario.html
+│  -rw-r--r--  2.0 unx     3981 bX defN 26-Nov-17 03:16 BOOT-INF/classes/templates/fragments/layout.html
+│  -rw-r--r--  2.0 unx     5886 bX defN 26-Nov-17 03:16 BOOT-INF/classes/templates/index.html
+│  -rw-r--r--  2.0 unx     5120 bl defN 26-Nov-17 03:16 META-INF/maven/com.example/PetsUniverse/pom.xml
+│  -rw-r--r--  2.0 unx       67 bl defN 26-Nov-17 03:16 META-INF/maven/com.example/PetsUniverse/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:28 BOOT-INF/lib/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:29 BOOT-INF/lib/
+│  -rw-r--r--  2.0 unx   287122 b- stor 26-Jul-09 08:49 BOOT-INF/lib/logback-classic-1.5.38.jar
+│  -rw-r--r--  2.0 unx   641090 b- stor 26-Jul-09 08:49 BOOT-INF/lib/logback-core-1.5.38.jar
+│  -rw-r--r--  2.0 unx    24173 b- stor 26-Jul-01 09:46 BOOT-INF/lib/log4j-to-slf4j-2.25.5.jar
+│  -rw-r--r--  2.0 unx   351427 b- stor 26-Jul-01 09:46 BOOT-INF/lib/log4j-api-2.25.5.jar
+│  -rw-r--r--  2.0 unx     6345 b- stor 26-Sep-22 14:37 BOOT-INF/lib/jul-to-slf4j-2.0.20.jar
+│  -rw-r--r--  2.0 unx    26378 b- stor 23-Oct-28 00:00 BOOT-INF/lib/jakarta.annotation-api-3.0.0.jar
+│  -rw-r--r--  2.0 unx   340068 b- stor 26-Feb-26 20:35 BOOT-INF/lib/snakeyaml-2.6.jar
+│ @@ -350,10 +350,10 @@
+│  -rw-r--r--  2.0 unx  2607237 b- stor 26-Mar-27 15:14 BOOT-INF/lib/mysql-connector-j-9.7.0.jar
+│  -rw-r--r--  2.0 unx   118835 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-security-crypto-7.1.2.jar
+│  -rw-r--r--  2.0 unx   131219 b- stor 20-Dec-19 17:24 BOOT-INF/lib/jakarta.xml.bind-api-4.0.5.jar
+│  -rw-r--r--  2.0 unx    67380 b- stor 24-Feb-14 00:00 BOOT-INF/lib/jakarta.activation-api-2.1.4.jar
+│  -rw-r--r--  2.0 unx  4663288 b- stor 26-Oct-13 09:14 BOOT-INF/lib/byte-buddy-1.18.15.jar
+│  -rw-r--r--  2.0 unx   171137 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-web-server-4.1.2.jar
+│  -rw-r--r--  2.0 unx    54008 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-tools-4.1.2.jar
+│ --rw-r--r--  2.0 unx     3412 bl defN 26-Nov-17 14:28 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 14:28 BOOT-INF/layers.idx
+│ +-rw-r--r--  2.0 unx     3412 bl defN 26-Nov-17 14:29 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 14:29 BOOT-INF/layers.idx
+│  357 files, 56370548 bytes uncompressed, 55965674 bytes compressed:  0.7%

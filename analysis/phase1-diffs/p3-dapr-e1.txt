@@ -1,0 +1,41 @@
+--- E1/build-1/artifacts/dapr-spring_dapr-spring-boot-autoconfigure_target_dapr-spring-boot-autoconfigure-1.20.0-SNAPSHOT.jar
++++ E1/build-2/artifacts/dapr-spring_dapr-spring-boot-autoconfigure_target_dapr-spring-boot-autoconfigure-1.20.0-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│  Zip file size: 8797 bytes, number of entries: 18
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 14:52 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/dapr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/dapr/spring/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/dapr/spring/boot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/dapr/spring/boot/autoconfigure/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 io/dapr/spring/boot/autoconfigure/client/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 META-INF/spring/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 META-INF/maven/io.dapr.spring/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:52 META-INF/maven/io.dapr.spring/dapr-spring-boot-autoconfigure/
+│ --rw-r--r--  2.0 unx     3230 b- defN 26-Nov-17 14:52 io/dapr/spring/boot/autoconfigure/client/Jackson3ObjectSerializer.class
+│ --rw-r--r--  2.0 unx     1330 b- defN 26-Nov-17 14:52 io/dapr/spring/boot/autoconfigure/client/DaprJackson3AutoConfiguration.class
+│ --rw-r--r--  2.0 unx     7471 b- defN 26-Nov-17 14:52 io/dapr/spring/boot/autoconfigure/client/DaprClientAutoConfiguration.class
+│ --rw-r--r--  2.0 unx      140 b- defN 26-Nov-17 14:52 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 14:54 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/dapr/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/dapr/spring/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/dapr/spring/boot/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/dapr/spring/boot/autoconfigure/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 io/dapr/spring/boot/autoconfigure/client/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 META-INF/spring/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 META-INF/maven/io.dapr.spring/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 14:54 META-INF/maven/io.dapr.spring/dapr-spring-boot-autoconfigure/
+│ +-rw-r--r--  2.0 unx     3230 b- defN 26-Nov-17 14:54 io/dapr/spring/boot/autoconfigure/client/Jackson3ObjectSerializer.class
+│ +-rw-r--r--  2.0 unx     1330 b- defN 26-Nov-17 14:54 io/dapr/spring/boot/autoconfigure/client/DaprJackson3AutoConfiguration.class
+│ +-rw-r--r--  2.0 unx     7471 b- defN 26-Nov-17 14:54 io/dapr/spring/boot/autoconfigure/client/DaprClientAutoConfiguration.class
+│ +-rw-r--r--  2.0 unx      140 b- defN 26-Nov-17 14:54 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  -rw-r--r--  2.0 unx     5878 b- defN 26-Nov-17 14:51 META-INF/maven/io.dapr.spring/dapr-spring-boot-autoconfigure/pom.xml
+│ --rw-r--r--  2.0 unx       89 b- defN 26-Nov-17 14:52 META-INF/maven/io.dapr.spring/dapr-spring-boot-autoconfigure/pom.properties
+│ +-rw-r--r--  2.0 unx       89 b- defN 26-Nov-17 14:54 META-INF/maven/io.dapr.spring/dapr-spring-boot-autoconfigure/pom.properties
+│  18 files, 18219 bytes uncompressed, 5975 bytes compressed:  67.2%

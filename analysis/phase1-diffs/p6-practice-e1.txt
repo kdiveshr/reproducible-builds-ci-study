@@ -1,0 +1,122 @@
+--- E1/build-1/artifacts/target_demo-0.0.1-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_demo-0.0.1-SNAPSHOT.jar
+├── zipinfo -v {}
+│ @@ -26,15 +26,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          4 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -60,15 +60,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         4f0bf4c6
+│    compressed size:                                267 bytes
+│    uncompressed size:                              474 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3749,15 +3749,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -3780,15 +3780,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             17 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -4143,15 +4143,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                2 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             13 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -5126,15 +5126,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         ed252804
+│    compressed size:                                365 bytes
+│    uncompressed size:                              1506 bytes
+│    length of filename:                             22 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│ @@ -5157,15 +5157,15 @@
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2026 Nov 17 17:50:08
+│ +  file last modified on (DOS date/time):          2026 Nov 17 17:50:22
+│    32-bit CRC value (hex):                         d635e6b5
+│    compressed size:                                124 bytes
+│    uncompressed size:                              212 bytes
+│    length of filename:                             19 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1

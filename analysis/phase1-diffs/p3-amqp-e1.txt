@@ -1,0 +1,65 @@
+--- E1/build-1/artifacts/amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-custom-configuration_target_amqp-10-jms-spring-boot-custom-configuration-4.1.11-SNAPSHOT.jar
++++ E1/build-2/artifacts/amqp-10-jms-spring-boot-examples_amqp-10-jms-spring-boot-custom-configuration_target_amqp-10-jms-spring-boot-custom-configuration-4.1.11-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 16008053 bytes, number of entries: 186
+│ -drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:52 META-INF/
+│ --rw-r--r--  2.0 unx      572 bl defN 26-Nov-17 14:52 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 14:53 META-INF/
+│ +-rw-r--r--  2.0 unx      572 bl defN 26-Nov-17 14:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx       66 bl defN 80-Feb-01 00:00 META-INF/services/java.nio.file.spi.FileSystemProvider
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jar/
+│ @@ -115,16 +115,16 @@
+│  -rw-r--r--  2.0 unx    12417 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipContent.class
+│  -rw-r--r--  2.0 unx     4841 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipDataDescriptorRecord.class
+│  -rw-r--r--  2.0 unx     2105 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord$Located.class
+│  -rw-r--r--  2.0 unx     6496 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord.class
+│  -rw-r--r--  2.0 unx     5545 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipLocalFileHeaderRecord.class
+│  -rw-r--r--  2.0 unx     1474 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString$CompareType.class
+│  -rw-r--r--  2.0 unx     7975 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:52 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:52 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:53 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:53 BOOT-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/
+│  drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-05 15:45 META-INF/maven/
+│ @@ -134,15 +134,15 @@
+│  -rw-r--r--  2.0 unx     1522 bX defN 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/example/CustomConfigredMessageProducer.class
+│  -rw-r--r--  2.0 unx     1767 bX defN 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/example/CustomConfigurationExample$CustomAMQP10JMSClientConfiguration.class
+│  -rw-r--r--  2.0 unx     1052 bX defN 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/example/CustomConfigurationExample.class
+│  -rw-r--r--  2.0 unx     1454 bX defN 26-Nov-05 15:45 BOOT-INF/classes/org/amqphub/spring/boot/jms/example/CustomConfiguredMessageConsumer.class
+│  -rw-r--r--  2.0 unx     1166 bX defN 26-Nov-05 15:45 BOOT-INF/classes/simplelogger.properties
+│  -rw-r--r--  2.0 unx     2703 bl defN 26-Nov-05 15:45 META-INF/maven/org.amqphub.spring/amqp-10-jms-spring-boot-custom-configuration/pom.xml
+│  -rw-r--r--  2.0 unx      107 bl defN 26-Nov-05 15:45 META-INF/maven/org.amqphub.spring/amqp-10-jms-spring-boot-custom-configuration/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:52 BOOT-INF/lib/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 14:53 BOOT-INF/lib/
+│  -rw-r--r--  2.0 unx     2849 b- stor 26-Nov-05 15:45 BOOT-INF/lib/amqp-10-jms-spring-boot-starter-4.1.11-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx    20193 b- stor 26-Nov-05 15:45 BOOT-INF/lib/amqp-10-jms-spring-boot-autoconfigure-4.1.11-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx   372565 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-autoconfigure-4.1.2.jar
+│  -rw-r--r--  2.0 unx   287122 b- stor 26-Jul-09 08:49 BOOT-INF/lib/logback-classic-1.5.38.jar
+│  -rw-r--r--  2.0 unx   641090 b- stor 26-Jul-09 08:49 BOOT-INF/lib/logback-core-1.5.38.jar
+│  -rw-r--r--  2.0 unx    24173 b- stor 26-Jul-01 09:46 BOOT-INF/lib/log4j-to-slf4j-2.25.5.jar
+│  -rw-r--r--  2.0 unx   351427 b- stor 26-Jul-01 09:46 BOOT-INF/lib/log4j-api-2.25.5.jar
+│ @@ -179,10 +179,10 @@
+│  -rw-r--r--  2.0 unx    46874 b- stor 26-Oct-06 08:26 BOOT-INF/lib/netty-transport-native-unix-common-4.2.19.Final.jar
+│  -rw-r--r--  2.0 unx    42362 b- stor 26-Oct-06 08:27 BOOT-INF/lib/netty-transport-native-epoll-4.2.19.Final-linux-x86_64.jar
+│  -rw-r--r--  2.0 unx   159425 b- stor 26-Oct-06 08:27 BOOT-INF/lib/netty-transport-classes-epoll-4.2.19.Final.jar
+│  -rw-r--r--  2.0 unx    28624 b- stor 26-Oct-06 08:35 BOOT-INF/lib/netty-transport-native-kqueue-4.2.19.Final-osx-x86_64.jar
+│  -rw-r--r--  2.0 unx   117030 b- stor 26-Oct-06 08:31 BOOT-INF/lib/netty-transport-classes-kqueue-4.2.19.Final.jar
+│  -rw-r--r--  2.0 unx    51339 b- stor 80-Feb-01 00:00 BOOT-INF/lib/micrometer-commons-1.17.2.jar
+│  -rw-r--r--  2.0 unx    54008 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-tools-4.1.2.jar
+│ --rw-r--r--  2.0 unx     2146 bl defN 26-Nov-17 14:52 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx     2426 bl defN 26-Nov-17 14:52 BOOT-INF/layers.idx
+│ +-rw-r--r--  2.0 unx     2146 bl defN 26-Nov-17 14:53 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx     2426 bl defN 26-Nov-17 14:53 BOOT-INF/layers.idx
+│  186 files, 16206311 bytes uncompressed, 15970029 bytes compressed:  1.5%

@@ -1,0 +1,59 @@
+{
+ "projects": 25,
+ "fully_reproducible_projects": 1,
+ "project_rate": 0.04,
+ "project_rate_wilson95": [
+  0.007096233423382075,
+  0.1954406391161776
+ ],
+ "artifacts_per_build": 2992,
+ "within_env_matches": 2831,
+ "within_env_rate": 0.9461898395721925,
+ "within_env_wilson95": [
+  0.9375175018001171,
+  0.9537179112370697
+ ],
+ "cross_env_matches": 2794,
+ "cross_env_rate": 0.9338235294117647,
+ "cross_env_wilson95": [
+  0.9243481903837987,
+  0.9421863160748294
+ ],
+ "mcnemar_all": {
+  "b_within_only": 19,
+  "c_cross_only": 0,
+  "p_exact_two_sided": 3.814697265625e-06
+ },
+ "mcnemar_excl_confound": {
+  "b_within_only": 0,
+  "c_cross_only": 0,
+  "p_exact_two_sided": 1.0
+ },
+ "excl_boot_ui": {
+  "artifacts": 97,
+  "within_matches": 13,
+  "cross_matches": 13,
+  "within_rate": 0.13402061855670103,
+  "cross_rate": 0.13402061855670103,
+  "within_wilson95": [
+   0.08002456647848331,
+   0.2158999392986834
+  ],
+  "cross_wilson95": [
+   0.08002456647848331,
+   0.2158999392986834
+  ]
+ },
+ "fix_phase": {
+  "mismatching_projects": 24,
+  "fully_fixed_all_six_builds": 23,
+  "fixed_with_disclosed_residuals": 1,
+  "step2_only_one_iteration": 20,
+  "multi_attempt": [
+   "ScheduleDashboard (3, step 2)",
+   "spring-petclinic-data-jdbc (3, steps 2+6)",
+   "apollo (2, steps 2+6)",
+   "boot-ui (3, step 2)"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+--- E1/build-1/artifacts/chaos-monkey-docs_target_chaos-monkey-docs-4.0.1-SNAPSHOT.jar
++++ E1/build-2/artifacts/chaos-monkey-docs_target_chaos-monkey-docs-4.0.1-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│  Zip file size: 1923 bytes, number of entries: 7
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:13 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 19:13 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:13 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:13 META-INF/maven/de.codecentric/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:13 META-INF/maven/de.codecentric/chaos-monkey-docs/
+│ --rw-r--r--  2.0 unx     2356 b- defN 26-Nov-17 19:13 META-INF/maven/de.codecentric/chaos-monkey-docs/pom.xml
+│ --rw-r--r--  2.0 unx       75 b- defN 26-Nov-17 19:13 META-INF/maven/de.codecentric/chaos-monkey-docs/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:14 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 26-Nov-17 19:14 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:14 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:14 META-INF/maven/de.codecentric/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:14 META-INF/maven/de.codecentric/chaos-monkey-docs/
+│ +-rw-r--r--  2.0 unx     2356 b- defN 26-Nov-17 19:14 META-INF/maven/de.codecentric/chaos-monkey-docs/pom.xml
+│ +-rw-r--r--  2.0 unx       75 b- defN 26-Nov-17 19:14 META-INF/maven/de.codecentric/chaos-monkey-docs/pom.properties
+│  7 files, 2512 bytes uncompressed, 891 bytes compressed:  64.5%

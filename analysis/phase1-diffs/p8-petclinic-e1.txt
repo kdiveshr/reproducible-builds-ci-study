@@ -1,0 +1,254 @@
+--- E1/build-1/artifacts/target_spring-petclinic-data-jdbc-3.0.0.BUILD-SNAPSHOT.jar
++++ E1/build-2/artifacts/target_spring-petclinic-data-jdbc-3.0.0.BUILD-SNAPSHOT.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 53237073 bytes, number of entries: 321
+│ -drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 19:46 META-INF/
+│ --rw-r--r--  2.0 unx      497 bl defN 26-Nov-17 19:46 META-INF/MANIFEST.MF
+│ +Zip file size: 53237070 bytes, number of entries: 321
+│ +drwxr-xr-x  2.0 unx        0 bX defN 26-Nov-17 19:48 META-INF/
+│ +-rw-r--r--  2.0 unx      497 bl defN 26-Nov-17 19:48 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx       66 bl defN 80-Feb-01 00:00 META-INF/services/java.nio.file.spi.FileSystemProvider
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/
+│  drwxr-xr-x  2.0 unx        0 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/jar/
+│ @@ -114,106 +114,106 @@
+│  -rw-r--r--  2.0 unx    12611 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipContent.class
+│  -rw-r--r--  2.0 unx     4841 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipDataDescriptorRecord.class
+│  -rw-r--r--  2.0 unx     2105 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord$Located.class
+│  -rw-r--r--  2.0 unx     6496 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipEndOfCentralDirectoryRecord.class
+│  -rw-r--r--  2.0 unx     5545 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipLocalFileHeaderRecord.class
+│  -rw-r--r--  2.0 unx     1474 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString$CompareType.class
+│  -rw-r--r--  2.0 unx     7975 bl defN 80-Feb-01 00:00 org/springframework/boot/loader/zip/ZipString.class
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/classes/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/messages/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/static/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/static/resources/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/static/resources/css/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/visit/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/system/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/templates/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/templates/pets/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/templates/owners/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/templates/vets/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/templates/fragments/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/db/
+│ -drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:46 BOOT-INF/classes/db/migration/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/org.springframework.samples/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:46 META-INF/maven/org.springframework.samples/spring-petclinic-data-jdbc/
+│ --rw-r--r--  2.0 unx      299 bX defN 26-Nov-17 19:46 BOOT-INF/classes/messages/messages_de.properties
+│ --rw-r--r--  2.0 unx      110 bX defN 26-Nov-17 19:46 BOOT-INF/classes/messages/messages_en.properties
+│ --rw-r--r--  2.0 unx      256 bX defN 26-Nov-17 19:46 BOOT-INF/classes/messages/messages.properties
+│ --rw-r--r--  2.0 unx      103 bX defN 26-Nov-17 19:46 BOOT-INF/classes/application-test.properties
+│ --rw-r--r--  2.0 unx     1197 bX defN 26-Nov-17 19:45 BOOT-INF/classes/git.properties
+│ --rw-r--r--  2.0 unx    28963 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.eot
+│ --rw-r--r--  2.0 unx    42692 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.ttf
+│ --rw-r--r--  2.0 unx    24240 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.woff
+│ --rw-r--r--  2.0 unx    63044 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.ttf
+│ --rw-r--r--  2.0 unx   370273 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.svg
+│ --rw-r--r--  2.0 unx    84634 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.svg
+│ --rw-r--r--  2.0 unx    20979 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.eot
+│ --rw-r--r--  2.0 unx    32712 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.woff
+│ --rw-r--r--  2.0 unx    67721 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/pets.png
+│ --rw-r--r--  2.0 unx      528 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/favicon.png
+│ --rw-r--r--  2.0 unx     6888 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/spring-logo-dataflow.png
+│ --rw-r--r--  2.0 unx     9162 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/platform-bg.png
+│ --rw-r--r--  2.0 unx     3705 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/spring-logo-dataflow-mobile.png
+│ --rw-r--r--  2.0 unx     2818 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/images/spring-pivotal-logo.png
+│ --rw-r--r--  2.0 unx   152022 bX defN 26-Nov-17 19:46 BOOT-INF/classes/static/resources/css/petclinic.css
+│ --rw-r--r--  2.0 unx     9132 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController.class
+│ --rw-r--r--  2.0 unx     1847 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetRepository.class
+│ --rw-r--r--  2.0 unx     3756 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetTypeFormatter.class
+│ --rw-r--r--  2.0 unx     2903 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/Owner.class
+│ --rw-r--r--  2.0 unx     4312 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/VisitController.class
+│ --rw-r--r--  2.0 unx     1777 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetType.class
+│ --rw-r--r--  2.0 unx     2711 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController$PetDetails.class
+│ --rw-r--r--  2.0 unx     1754 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetValidator.class
+│ --rw-r--r--  2.0 unx     1191 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerRepository.class
+│ --rw-r--r--  2.0 unx     2383 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController$OwnerDetails.class
+│ --rw-r--r--  2.0 unx     5734 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetController.class
+│ --rw-r--r--  2.0 unx     2875 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/owner/Pet.class
+│ --rw-r--r--  2.0 unx      995 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/visit/VisitRepository.class
+│ --rw-r--r--  2.0 unx     2465 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/visit/Visit.class
+│ --rw-r--r--  2.0 unx      790 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/PetClinicApplication.class
+│ --rw-r--r--  2.0 unx      634 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/system/WelcomeController.class
+│ --rw-r--r--  2.0 unx      795 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/system/CrashController.class
+│ --rw-r--r--  2.0 unx      525 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/system/CacheConfiguration.class
+│ --rw-r--r--  2.0 unx     2805 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Vet.class
+│ --rw-r--r--  2.0 unx     1779 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Specialty.class
+│ --rw-r--r--  2.0 unx      708 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/SpecialtyRepository.class
+│ --rw-r--r--  2.0 unx     4577 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetController.class
+│ --rw-r--r--  2.0 unx     2507 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetDto.class
+│ --rw-r--r--  2.0 unx     1671 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/SpecialtyRef.class
+│ --rw-r--r--  2.0 unx      852 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetRepository.class
+│ --rw-r--r--  2.0 unx     1795 bX defN 26-Nov-17 19:46 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Vets.class
+│ --rw-r--r--  2.0 unx      257 bl defN 26-Nov-17 19:45 META-INF/build-info.properties
+│ --rw-r--r--  2.0 unx     1611 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/pets/createOrUpdateVisitForm.html
+│ --rw-r--r--  2.0 unx     1193 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/pets/createOrUpdatePetForm.html
+│ --rw-r--r--  2.0 unx     2184 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/owners/ownerDetails.html
+│ --rw-r--r--  2.0 unx     1012 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/owners/ownersList.html
+│ --rw-r--r--  2.0 unx     1056 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/owners/findOwners.html
+│ --rw-r--r--  2.0 unx     1095 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/owners/createOrUpdateOwnerForm.html
+│ --rw-r--r--  2.0 unx      328 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/error.html
+│ --rw-r--r--  2.0 unx      395 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/welcome.html
+│ --rw-r--r--  2.0 unx      651 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/vets/vetList.html
+│ --rw-r--r--  2.0 unx     1330 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/fragments/inputField.html
+│ --rw-r--r--  2.0 unx      999 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/fragments/selectField.html
+│ --rw-r--r--  2.0 unx     3800 bX defN 26-Nov-17 19:46 BOOT-INF/classes/templates/fragments/layout.html
+│ --rw-r--r--  2.0 unx      709 bX defN 26-Nov-17 19:46 BOOT-INF/classes/banner.txt
+│ --rw-r--r--  2.0 unx     1533 bX defN 26-Nov-17 19:46 BOOT-INF/classes/db/migration/V001__schema.sql
+│ --rw-r--r--  2.0 unx     3169 bX defN 26-Nov-17 19:46 BOOT-INF/classes/db/migration/V002__data.sql
+│ --rw-r--r--  2.0 unx      699 bX defN 26-Nov-17 19:46 BOOT-INF/classes/application.properties
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:48 BOOT-INF/
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:48 BOOT-INF/classes/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/messages/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/static/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/static/resources/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/static/resources/css/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/visit/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/system/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/templates/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/templates/pets/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/templates/owners/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/templates/vets/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/templates/fragments/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/db/
+│ +drwxr-xr-x  2.0 unx        0 bx stor 26-Nov-17 19:48 BOOT-INF/classes/db/migration/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:48 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:48 META-INF/maven/org.springframework.samples/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 26-Nov-17 19:48 META-INF/maven/org.springframework.samples/spring-petclinic-data-jdbc/
+│ +-rw-r--r--  2.0 unx      299 bX defN 26-Nov-17 19:48 BOOT-INF/classes/messages/messages_de.properties
+│ +-rw-r--r--  2.0 unx      110 bX defN 26-Nov-17 19:48 BOOT-INF/classes/messages/messages_en.properties
+│ +-rw-r--r--  2.0 unx      256 bX defN 26-Nov-17 19:48 BOOT-INF/classes/messages/messages.properties
+│ +-rw-r--r--  2.0 unx      103 bX defN 26-Nov-17 19:48 BOOT-INF/classes/application-test.properties
+│ +-rw-r--r--  2.0 unx     1197 bX defN 26-Nov-17 19:47 BOOT-INF/classes/git.properties
+│ +-rw-r--r--  2.0 unx    28963 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.eot
+│ +-rw-r--r--  2.0 unx    42692 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.ttf
+│ +-rw-r--r--  2.0 unx    24240 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.woff
+│ +-rw-r--r--  2.0 unx    63044 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.ttf
+│ +-rw-r--r--  2.0 unx   370273 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.svg
+│ +-rw-r--r--  2.0 unx    84634 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.svg
+│ +-rw-r--r--  2.0 unx    20979 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/montserrat-webfont.eot
+│ +-rw-r--r--  2.0 unx    32712 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/fonts/varela_round-webfont.woff
+│ +-rw-r--r--  2.0 unx    67721 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/pets.png
+│ +-rw-r--r--  2.0 unx      528 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/favicon.png
+│ +-rw-r--r--  2.0 unx     6888 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/spring-logo-dataflow.png
+│ +-rw-r--r--  2.0 unx     9162 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/platform-bg.png
+│ +-rw-r--r--  2.0 unx     3705 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/spring-logo-dataflow-mobile.png
+│ +-rw-r--r--  2.0 unx     2818 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/images/spring-pivotal-logo.png
+│ +-rw-r--r--  2.0 unx   152022 bX defN 26-Nov-17 19:48 BOOT-INF/classes/static/resources/css/petclinic.css
+│ +-rw-r--r--  2.0 unx     9132 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController.class
+│ +-rw-r--r--  2.0 unx     1847 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetRepository.class
+│ +-rw-r--r--  2.0 unx     3756 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetTypeFormatter.class
+│ +-rw-r--r--  2.0 unx     2903 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/Owner.class
+│ +-rw-r--r--  2.0 unx     4312 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/VisitController.class
+│ +-rw-r--r--  2.0 unx     1777 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetType.class
+│ +-rw-r--r--  2.0 unx     2711 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController$PetDetails.class
+│ +-rw-r--r--  2.0 unx     1754 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetValidator.class
+│ +-rw-r--r--  2.0 unx     1191 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerRepository.class
+│ +-rw-r--r--  2.0 unx     2383 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/OwnerController$OwnerDetails.class
+│ +-rw-r--r--  2.0 unx     5734 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/PetController.class
+│ +-rw-r--r--  2.0 unx     2875 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/owner/Pet.class
+│ +-rw-r--r--  2.0 unx      995 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/visit/VisitRepository.class
+│ +-rw-r--r--  2.0 unx     2465 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/visit/Visit.class
+│ +-rw-r--r--  2.0 unx      790 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/PetClinicApplication.class
+│ +-rw-r--r--  2.0 unx      634 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/system/WelcomeController.class
+│ +-rw-r--r--  2.0 unx      795 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/system/CrashController.class
+│ +-rw-r--r--  2.0 unx      525 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/system/CacheConfiguration.class
+│ +-rw-r--r--  2.0 unx     2805 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Vet.class
+│ +-rw-r--r--  2.0 unx     1779 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Specialty.class
+│ +-rw-r--r--  2.0 unx      708 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/SpecialtyRepository.class
+│ +-rw-r--r--  2.0 unx     4577 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetController.class
+│ +-rw-r--r--  2.0 unx     2507 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetDto.class
+│ +-rw-r--r--  2.0 unx     1671 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/SpecialtyRef.class
+│ +-rw-r--r--  2.0 unx      852 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/VetRepository.class
+│ +-rw-r--r--  2.0 unx     1795 bX defN 26-Nov-17 19:48 BOOT-INF/classes/org/springframework/samples/petclinic/vet/Vets.class
+│ +-rw-r--r--  2.0 unx      257 bl defN 26-Nov-17 19:48 META-INF/build-info.properties
+│ +-rw-r--r--  2.0 unx     1611 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/pets/createOrUpdateVisitForm.html
+│ +-rw-r--r--  2.0 unx     1193 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/pets/createOrUpdatePetForm.html
+│ +-rw-r--r--  2.0 unx     2184 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/owners/ownerDetails.html
+│ +-rw-r--r--  2.0 unx     1012 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/owners/ownersList.html
+│ +-rw-r--r--  2.0 unx     1056 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/owners/findOwners.html
+│ +-rw-r--r--  2.0 unx     1095 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/owners/createOrUpdateOwnerForm.html
+│ +-rw-r--r--  2.0 unx      328 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/error.html
+│ +-rw-r--r--  2.0 unx      395 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/welcome.html
+│ +-rw-r--r--  2.0 unx      651 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/vets/vetList.html
+│ +-rw-r--r--  2.0 unx     1330 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/fragments/inputField.html
+│ +-rw-r--r--  2.0 unx      999 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/fragments/selectField.html
+│ +-rw-r--r--  2.0 unx     3800 bX defN 26-Nov-17 19:48 BOOT-INF/classes/templates/fragments/layout.html
+│ +-rw-r--r--  2.0 unx      709 bX defN 26-Nov-17 19:48 BOOT-INF/classes/banner.txt
+│ +-rw-r--r--  2.0 unx     1533 bX defN 26-Nov-17 19:48 BOOT-INF/classes/db/migration/V001__schema.sql
+│ +-rw-r--r--  2.0 unx     3169 bX defN 26-Nov-17 19:48 BOOT-INF/classes/db/migration/V002__data.sql
+│ +-rw-r--r--  2.0 unx      699 bX defN 26-Nov-17 19:48 BOOT-INF/classes/application.properties
+│  -rw-r--r--  2.0 unx    12116 bl defN 26-Nov-17 19:44 META-INF/maven/org.springframework.samples/spring-petclinic-data-jdbc/pom.xml
+│ --rw-r--r--  2.0 unx      103 bl defN 26-Nov-17 19:46 META-INF/maven/org.springframework.samples/spring-petclinic-data-jdbc/pom.properties
+│ -drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:46 BOOT-INF/lib/
+│ +-rw-r--r--  2.0 unx      103 bl defN 26-Nov-17 19:48 META-INF/maven/org.springframework.samples/spring-petclinic-data-jdbc/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 bl defN 26-Nov-17 19:48 BOOT-INF/lib/
+│  -rw-r--r--  2.0 unx   308543 b- stor 25-Dec-11 16:29 BOOT-INF/lib/logback-classic-1.5.22.jar
+│  -rw-r--r--  2.0 unx   641329 b- stor 25-Dec-11 16:29 BOOT-INF/lib/logback-core-1.5.22.jar
+│  -rw-r--r--  2.0 unx    24173 b- stor 25-Dec-15 12:02 BOOT-INF/lib/log4j-to-slf4j-2.25.3.jar
+│  -rw-r--r--  2.0 unx   350610 b- stor 25-Dec-15 12:02 BOOT-INF/lib/log4j-api-2.25.3.jar
+│  -rw-r--r--  2.0 unx     6349 b- stor 25-Feb-25 16:36 BOOT-INF/lib/jul-to-slf4j-2.0.17.jar
+│  -rw-r--r--  2.0 unx    26378 b- stor 23-Oct-28 00:00 BOOT-INF/lib/jakarta.annotation-api-3.0.0.jar
+│  -rw-r--r--  2.0 unx   340015 b- stor 25-Aug-31 12:19 BOOT-INF/lib/snakeyaml-2.5.jar
+│ @@ -314,10 +314,10 @@
+│  -rw-r--r--  2.0 unx  1101992 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-test-7.0.2.jar
+│  -rw-r--r--  2.0 unx   177639 b- stor 25-Sep-13 15:04 BOOT-INF/lib/xmlunit-core-2.10.4.jar
+│  -rw-r--r--  2.0 unx   174084 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-web-server-4.0.1.jar
+│  -rw-r--r--  2.0 unx    21141 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jdbc-test-4.0.1.jar
+│  -rw-r--r--  2.0 unx     9514 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-data-jdbc-test-4.0.1.jar
+│  -rw-r--r--  2.0 unx    69908 b- stor 25-Feb-25 16:36 BOOT-INF/lib/slf4j-api-2.0.17.jar
+│  -rw-r--r--  2.0 unx    53090 b- stor 80-Feb-01 00:00 BOOT-INF/lib/spring-boot-jarmode-tools-4.0.1.jar
+│ --rw-r--r--  2.0 unx     4828 bl defN 26-Nov-17 19:46 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 19:46 BOOT-INF/layers.idx
+│ -321 files, 54039658 bytes uncompressed, 53168735 bytes compressed:  1.6%
+│ +-rw-r--r--  2.0 unx     4828 bl defN 26-Nov-17 19:48 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx      212 bl defN 26-Nov-17 19:48 BOOT-INF/layers.idx
+│ +321 files, 54039658 bytes uncompressed, 53168732 bytes compressed:  1.6%
+├── BOOT-INF/classes/git.properties
+│ @@ -1,11 +1,11 @@
+│  #Generated by Git-Commit-Id-Plugin
+│  git.branch=d601d3a8fa481e67676f67beda790e0d6bda701d
+│  git.build.host=ffef1872605c
+│ -git.build.time=2026-11-17T19\:45\:53+0000
+│ +git.build.time=2026-11-17T19\:47\:54+0000
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=3.0.0.BUILD-SNAPSHOT
+│  git.closest.tag.commit.count=
+│  git.closest.tag.name=
+│  git.commit.author.time=2026-01-07T18\:22\:14+0000
+│  git.commit.committer.time=2026-01-07T18\:22\:14+0000
+├── META-INF/build-info.properties
+│ @@ -1,8 +1,8 @@
+│  build.artifact=spring-petclinic-data-jdbc
+│  build.encoding.reporting=UTF-8
+│  build.encoding.source=UTF-8
+│  build.group=org.springframework.samples
+│  build.java.version=17
+│  build.name=petclinic
+│ -build.time=2026-11-17T19\:44\:51.591Z
+│ +build.time=2026-11-17T19\:46\:45.947Z
+│  build.version=3.0.0.BUILD-SNAPSHOT
